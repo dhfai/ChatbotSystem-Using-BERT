@@ -1,0 +1,865 @@
+{
+  "documents": [
+    "Program Studi S-1 Pendidikan Dokter dengan akreditasi A dan ASIIN memiliki uang kuliah per semester Rp. 19.500.000 dan uang pembangunan Rp. 310.500.000",
+    "Program Studi Profesi Dokter dengan akreditasi A dan ASIIN memiliki uang kuliah per semester Rp. 22.500.000 dan uang pembangunan Rp. 200.000.000",
+    "Program Studi S-1 Farmasi dengan akreditasi Baik memiliki uang kuliah per semester Rp. 5.000.000 dan uang pembangunan Rp. 8.000.000",
+    "Program Studi S-1 Kebidanan dengan akreditasi Terakreditasi memiliki uang kuliah per semester Rp. 2.500.000 dan uang pembangunan Rp. 6.400.000",
+    "Program Studi Pendidikan Profesi Bidan dengan akreditasi Terakreditasi memiliki uang kuliah per semester Rp. 20.200.000,- (Paket Semester 1 dan 2)",
+    "Program Studi D-3 Kebidanan dengan akreditasi Baik Sekali memiliki uang kuliah per semester Rp. 3.000.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi D-3 Keperawatan dengan akreditasi Baik Sekali memiliki uang kuliah per semester Rp. 3.000.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Pendidikan Guru Sekolah Dasar dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.900.000 dan uang pembangunan Rp. 6.000.000",
+    "Program Studi S-1 Pendidikan Bahasa Inggris dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.300.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Pendidikan Bahasa & Sastra Indonesia dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.500.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Pendidikan Matematika dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.300.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Pendidikan Seni Rupa dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.300.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Pendidikan Sosiologi dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.300.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Teknologi Pendidikan dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.300.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Pendidikan Fisika dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.300.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Pendidikan Pancasila dan Kewarganegaraan dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.050.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Pendidikan Biologi dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.050.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Pendidikan Guru Pendidikan Anak Usia Dini dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.050.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi Pendidikan Profesi Guru (PPG) dengan akreditasi A",
+    "Program Studi S-1 Pendidikan Agama Islam dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 2.900.000 dan uang pembangunan Rp. 3.100.000",
+    "Program Studi S-1 Hukum Ekonomi Syariah (Mu’amalah) dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 2.500.000 dan uang pembangunan Rp. 3.100.000",
+    "Program Studi S-1 Bimbingan Konseling Pend. Islam dengan akreditasi Baik memiliki uang kuliah per semester Rp. 2.000.000 dan uang pembangunan Rp. 2.600.000",
+    "Program Studi S-1 Pendidikan Bahasa Arab dengan akreditasi B memiliki uang kuliah per semester Rp. 2.500.000 dan uang pembangunan Rp. 2.400.000",
+    "Program Studi S-1 Hukum Keluarga (Ahwal Syakhshiyah) dengan akreditasi B memiliki uang kuliah per semester Rp. 2.500.000 dan uang pembangunan Rp. 2.400.000",
+    "Program Studi S-1 Komunikasi dan Penyiaran Islam dengan akreditasi Baik memiliki uang kuliah per semester Rp. 2.500.000 dan uang pembangunan Rp. 2.400.000",
+    "Program Studi S-1 Akuntansi dengan akreditasi Baik Sekali memiliki uang kuliah per semester Rp. 3.500.000 dan uang pembangunan Rp. 5.000.000",
+    "Program Studi S-1 Manajemen dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.500.000 dan uang pembangunan Rp. 5.000.000",
+    "Program Studi S-1 Ekonomi Pembangunan dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.000.000 dan uang pembangunan Rp. 3.400.000",
+    "Program Studi S-1 Ekonomi Islam dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.000.000 dan uang pembangunan Rp. 3.400.000",
+    "Program Studi D-3 Perpajakan dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 2.800.000 dan uang pembangunan Rp. 3.400.000",
+    "Program Studi S-1 Teknik Elektro dengan akreditasi B memiliki uang kuliah per semester Rp. 3.600.000 dan uang pembangunan Rp. 5.700.000",
+    "Program Studi S-1 Teknik Pengairan dengan akreditasi Baik Sekali memiliki uang kuliah per semester Rp. 3.600.000 dan uang pembangunan Rp. 5.700.000",
+    "Program Studi S-1 Arsitektur dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.600.000 dan uang pembangunan Rp. 5.700.000",
+    "Program Studi S-1 Informatika dengan akreditasi Baik memiliki uang kuliah per semester Rp. 3.600.000 dan uang pembangunan Rp. 5.700.000",
+    "Program Studi S-1 Perencanaan Wilayah Kota dengan akreditasi Baik memiliki uang kuliah per semester Rp. 3.600.000 dan uang pembangunan Rp. 5.700.000",
+    "Program Studi S-1 Ilmu Administrasi Negara dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.500.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Ilmu Pemerintahan dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.500.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Ilmu Komunikasi dengan akreditasi B memiliki uang kuliah per semester Rp. 3.050.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Agribisnis dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.300.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Budidaya Perairan dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.300.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Kehutanan dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 3.050.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Agroteknologi dengan akreditasi Baik memiliki uang kuliah per semester Rp. 3.050.000 dan uang pembangunan Rp. 4.550.000",
+    "Program Studi S-1 Hukum Bisnis dengan akreditasi Baik memiliki uang kuliah per semester Rp. 4.000.000 dan uang pembangunan Rp. 5.500.000",
+    "Program Studi S-2 Manajemen dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 5.500.000",
+    "Program Studi S-2 Ilmu Administrasi Publik dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 5.500.000",
+    "Program Studi S-2 Pendidikan Islam dengan akreditasi Baik Sekali memiliki uang kuliah per semester Rp. 5.000.000",
+    "Program Studi S-2 Pend. Bahasa Indonesia dengan akreditasi Baik Sekali memiliki uang kuliah per semester Rp. 5.500.000",
+    "Program Studi S-2 Pendidikan Dasar dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 5.500.000",
+    "Program Studi S-2 Pendidikan Bahasa Inggris dengan akreditasi B memiliki uang kuliah per semester Rp. 5.000.000",
+    "Program Studi S-2 Agribisnis dengan akreditasi B memiliki uang kuliah per semester Rp. 5.000.000",
+    "Program Studi S-2 Pendidikan Matematika dengan akreditasi Baik memiliki uang kuliah per semester Rp. 5.000.000",
+    "Program Studi S-2 Teknik Sumber Daya Air (Pengairan) dengan akreditasi Baik memiliki uang kuliah per semester Rp. 6.000.000",
+    "Program Studi S-2 Pendidikan Sosiologi dengan akreditasi Unggul memiliki uang kuliah per semester Rp. 5.000.000",
+    "Program Studi S-2 Akuntansi dengan akreditasi Terakreditasi memiliki uang kuliah per semester Rp. 5.500.000",
+    "Program Studi S-3 Pendidikan Agama Islam dengan akreditasi Baik memiliki uang kuliah per semester Rp. 10.000.000",
+    "Program Studi S-3 Pendidikan dengan akreditasi Baik Sekali memiliki uang kuliah per semester Rp. 12.000.000",
+    "Program Studi S-3 Agribisnis dengan akreditasi Baik memiliki uang kuliah per semester Rp. 10.000.000",
+    "Fakultas Ekonomi dan Bisnis: Sambutan dari Dekan FEB UNISMUH Dr. Andi Jam'an S.E. M.Si. menegaskan bahwa fakultas ini telah berkiprah lebih dari setengah abad dalam mencetak sumber daya manusia di bidang ekonomi dan bisnis. Dalam sambutannya beliau menekankan bahwa FEB UNISMUH bukan hanya menjadi pusat pengembangan ilmu pengetahuan dan teknologi tetapi juga berkomitmen menjunjung tinggi nilai-nilai Islam sebagai dasar pendidikan. FEB telah berkembang menjadi salah satu fakultas terbesar di lingkungan Universitas Muhammadiyah Makassar dan menjadi ikon bagi perkembangan keilmuan berbasis nilai Islami.",
+    "Fakultas Ekonomi dan Bisnis: Struktur kepemimpinan FEB terdiri dari Dekan dan empat Wakil Dekan yang memiliki peran strategis dalam mengelola berbagai aspek fakultas. Wakil Dekan I Agusdiwana Suarni S.E. M.Acc fokus pada bidang akademik dan peningkatan kualitas pembelajaran. Wakil Dekan II Dr. Muchriana Muchran S.E. M.Si. Ak CA bertanggung jawab atas bidang administrasi keuangan dan sarana prasarana. Wakil Dekan III Abdul Muttalib S.E. M.M berfokus pada pengembangan kemahasiswaan alumni serta hubungan dengan dunia kerja. Sementara Wakil Dekan IV Dr. Sulaeman Masnan S.Pd.I. M.Pd.I mengoordinasikan bidang Al-Islam dan Kemuhammadiyahan (AIK). Selain itu terdapat Ketua Gugus Kendali Mutu (GKM) Asri Jaya S.E. M.M yang mengawasi penerapan standar mutu fakultas.",
+    "Fakultas Ekonomi dan Bisnis: Fakultas Ekonomi dan Bisnis UNISMUH menyelenggarakan lima program studi yang dirancang untuk menjawab kebutuhan dunia kerja dan perkembangan ilmu. S1 Manajemen berfokus pada ilmu manajerial kewirausahaan dan strategi bisnis. S1 Ekonomi Pembangunan menekankan analisis kebijakan pembangunan daerah dan isu-isu makro ekonomi. S1 Akuntansi mendidik mahasiswa dalam bidang audit perpajakan serta sistem informasi akuntansi. S1 Ekonomi Islam mengintegrasikan ilmu ekonomi dengan prinsip syariah membekali mahasiswa menjadi praktisi dan akademisi ekonomi syariah. Sementara D3 Perpajakan menyiapkan tenaga profesional ahli pajak dengan pemahaman regulasi perpajakan di Indonesia.",
+    "Fakultas Ekonomi dan Bisnis: FEB UNISMUH memiliki Unit Penjaminan Mutu (UPM) dan Gugus Kendali Mutu (GKM) yang berfungsi menjamin kualitas akademik dan layanan pendidikan. Penjaminan mutu meliputi penyusunan dokumen standar mutu baik di tingkat universitas maupun fakultas. Selain itu dilakukan monitoring dan evaluasi (Monev) terhadap kepuasan mahasiswa dosen dan tenaga kependidikan. Laporan audit mutu internal (AMI) juga rutin disusun sebagai bagian dari implementasi siklus PPEPP (Penetapan Pelaksanaan Evaluasi Pengendalian dan Peningkatan). Dengan sistem ini FEB berupaya mempertahankan standar pendidikan yang berkelanjutan dan akuntabel.",
+    "Fakultas Ekonomi dan Bisnis: Kehidupan mahasiswa di FEB sangat dinamis dengan hadirnya berbagai organisasi kemahasiswaan. Lembaga mahasiswa ini tidak hanya menjadi sarana pengembangan diri tetapi juga wadah untuk menyalurkan minat bakat serta aspirasi mahasiswa. Beberapa organisasi aktif di antaranya adalah IMM (Ikatan Mahasiswa Muhammadiyah) BEM FEB HIMAJEP (Ekonomi Pembangunan) HIMANSI (Akuntansi) HMJ Manajemen HIMAKIS (Ekonomi Islam) dan HIMAPA (Perpajakan). Kehadiran organisasi-organisasi ini membantu mahasiswa mengembangkan jiwa kepemimpinan kemampuan organisasi serta keterampilan sosial di luar ruang kelas.",
+    "Fakultas Ekonomi dan Bisnis: Ikatan Mahasiswa Muhammadiyah (IMM) merupakan salah satu organisasi mahasiswa terbesar di FEB. IMM lahir secara resmi pada 14 Maret 1964 dan berasaskan Islam UUD 1945 serta Pancasila. IMM hadir dari idealisme internal Muhammadiyah dan juga dorongan eksternal untuk menghadirkan organisasi mahasiswa yang independen. Di FEB IMM berperan penting dalam menanamkan nilai-nilai keislaman kepada mahasiswa serta mengembangkan jiwa kritis intelektual dan sosial yang berbasis pada dakwah pencerahan Muhammadiyah.",
+    "Fakultas Ekonomi dan Bisnis: Himpunan Mahasiswa Perpajakan (HIMAPA) berdiri pada 14 Juni 2017. HIMAPA berasaskan Pancasila UUD 1945 dan Pola Pembinaan Universitas Muhammadiyah. Visi organisasi ini adalah mencetak mahasiswa D3 Perpajakan yang taat beragama kritis kreatif visioner serta memiliki rasa tanggung jawab. HIMAPA bertujuan menghimpun seluruh mahasiswa program perpajakan dengan semangat kesetiakawanan kebersamaan dan idealisme yang kuat. Program-program yang dijalankan tidak hanya bersifat akademik tetapi juga sosial sehingga membentuk mahasiswa yang siap menghadapi tantangan di bidang perpajakan.",
+    "Fakultas Ekonomi dan Bisnis: Himpunan Mahasiswa Jurusan Ekonomi Pembangunan (HIMAJEP) merupakan organisasi tertua di FEB dibentuk pada tahun 1980. HIMAJEP memiliki visi menjadi himpunan yang aktif kreatif dan mampu menyerap aspirasi mahasiswa ekonomi pembangunan. Misi mereka antara lain menghadirkan program-program akademik dan sosial yang bermanfaat luas mempererat kebersamaan dan membangun tanggung jawab sosial mahasiswa. HIMAJEP menjadi wadah mahasiswa ekonomi pembangunan untuk berorganisasi berinovasi serta berkontribusi pada isu pembangunan di masyarakat.",
+    "Fakultas Ekonomi dan Bisnis: International Economics and Business Conference (IECON) merupakan forum ilmiah internasional yang digagas FEB UNISMUH. Konferensi pertama diselenggarakan pada 7-8 Maret 2023 dengan menghadirkan akademisi peneliti dan praktisi dari dalam maupun luar negeri. Tema utama yang dibahas meliputi manajemen akuntansi ekonomi pembangunan ekonomi Islam dan perpajakan. IECON bertujuan menjadi sarana publikasi hasil penelitian memperluas jejaring akademik serta meningkatkan reputasi internasional FEB UNISMUH.",
+    "Fakultas Ekonomi dan Bisnis: FEB UNISMUH menjalin komunikasi strategis dengan Otoritas Jasa Keuangan (OJK) Wilayah VI Sulawesi-Maluku. Audiensi ini bertujuan menyelaraskan kurikulum fakultas dengan kebutuhan industri jasa keuangan. Dalam pertemuan ini juga dibahas rencana kolaborasi berupa kuliah tamu kegiatan Kuliah Kerja Profesi (KKP) serta program literasi keuangan syariah bagi masyarakat desa. Kolaborasi ini memperkuat posisi FEB sebagai mitra strategis dalam meningkatkan pemahaman keuangan di masyarakat.",
+    "Fakultas Ekonomi dan Bisnis: FEB UNISMUH aktif membangun kerjasama dengan PWA Sulsel Ikatan Alumni Santri Sulawesi (IASS) dan PPPUM. Kolaborasi ini difokuskan pada pengembangan kewirausahaan mahasiswa literasi keuangan syariah serta penguatan UMKM berbasis digital. Selain itu FEB juga ikut serta dalam program monitoring pendidikan dan kesehatan seperti peningkatan jumlah santri serta upaya menurunkan angka stunting. Hal ini menunjukkan komitmen fakultas untuk memberikan dampak nyata bagi masyarakat.",
+    "Fakultas Ekonomi dan Bisnis: FEB telah menandatangani sejumlah MoU penting baik dengan lembaga nasional maupun internasional. Di antaranya adalah dengan SEAMEO SEAMOLEC (bidang TIK dan pembelajaran jarak jauh 2021) LPK ERA HAKWON & LPPR Indonesia (pendidikan pelatihan pengabdian 2021) Yayasan Habibie Education Youth (pengembangan SDM 2021) dan Pemerintah Kabupaten Majene (pendidikan penelitian pengabdian serta penguatan AIK 2021). Kerjasama ini memperluas jaringan dan kesempatan bagi mahasiswa serta dosen FEB.",
+    "Fakultas Ekonomi dan Bisnis: Website FEB menyediakan menu Download yang memuat berbagai dokumen resmi penting untuk mahasiswa dan dosen. Di antaranya adalah struktur organisasi dan tupoksi pimpinan fakultas panduan skripsi dan KKP periode 2023-2025 buku pedoman akademik SOP fakultas validasi data bimbingan skripsi per prodi jadwal ujian SK GKM hingga laporan survei kepuasan. Dengan fasilitas ini mahasiswa dapat mengakses kebutuhan akademiknya secara praktis.",
+    "Fakultas Ekonomi dan Bisnis: FEB UNISMUH rutin memberitakan kegiatan capaian dan prestasi mahasiswa maupun dosen. Fakultas ini menjadi tuan rumah Kongres Nasional AFEB PTMA 2025 sebuah forum penting bagi akademisi ekonomi dan bisnis Muhammadiyah. Selain itu dosen FEB turut berperan sebagai analis kebijakan ekonomi termasuk isu perpajakan seperti PPN. Mahasiswa FEB juga aktif menorehkan prestasi misalnya di ajang National Economic Competition (NEC) di Yogyakarta. FEB juga sukses menjalani audit eksternal ISO sebagai bagian dari upaya meningkatkan mutu layanan pendidikan.",
+    "Fakultas Ekonomi dan Bisnis: Fakultas berlokasi di Lantai 7 Fakultas Ekonomi dan Bisnis Jl. Sultan Alauddin No.259 Gn. Sari Kec. Rappocini Kota Makassar Sulawesi Selatan 90221. Terdapat juga kontak melalui media sosial seperti Facebook YouTube Instagram serta kemungkinan kontak WhatsApp.",
+    "Fakultas Ekonomi dan Bisnis: Terdapat menu Al Islam dan Kemuhammadiyyaan yang menunjukkan perhatian fakultas pada pendidikan karakter dan keislaman serta pengintegrasian nilai-nilai Islam dan Muhammadiyah dalam pembelajaran dan budaya kampus.",
+    "Fakultas Ekonomi dan Bisnis: Fakultas memiliki berbagai lembaga mahasiswa seperti IMM BEM HIMAJEP HIMANSI HMJ-Manajemen HIMAKIS dan HIMAPA yang secara aktif menyelenggarakan kegiatan organisasi dan pengembangan kemahasiswaan.",
+    "Fakultas Ekonomi dan Bisnis: Terdapat menu Komplain Pelanggan sebagai kanal yang kemungkinan digunakan untuk menerima masukan atau keluhan dari pengguna layanan fakultas mendukung perbaikan mutu dan layanan administratif.",
+    "Fakultas Ekonomi dan Bisnis: Pada laman berita Prodi Akuntansi berhasil meraih akreditasi Baik Sekali yang menunjukkan peningkatan mutu dan pengakuan eksternal atas kualitas program studi.",
+    "Fakultas Ekonomi dan Bisnis: Visi FEB adalah menjadi pusat pengembangan ilmu ekonomi dan bisnis Islami yang unggul di Indonesia. Misi fakultas mencakup pendidikan berkualitas penelitian relevan dengan kebutuhan masyarakat pengabdian berbasis pemberdayaan ekonomi umat serta penguatan karakter Islami mahasiswa.",
+    "Fakultas Ekonomi dan Bisnis: Terdapat menu Tracer Study yang memungkinkan lulusan sebagai bagian dari unit alumni membantu pelacakan dan pemetaan karier alumni setelah lulus.",
+    "Fakultas Teknik: Fakultas Teknik UNISMUH berdiri sejak tahun 1987 ditandai dengan operasionalnya Program Studi Teknik Pengairan berdasarkan SK No 0628/O/1989. Pada tahun yang sama prodi ini mulai menerima mahasiswa baru. Sejak itu selama lebih dari 30 tahun fakultas ini telah mendidik tenaga teknik yang berkompetensi dan tersebar di berbagai daerah maupun internasional berkontribusi dalam pembangunan nasional.",
+    "Fakultas Teknik: Fakultas Teknik memiliki visi menjadi lembaga yang Islami unggul dalam bidang teknik dipercaya oleh masyarakat dan mandiri dalam pengelolaan administratif maupun akademik.",
+    "Fakultas Teknik: Misinya mencakup enam poin utama: meningkatkan keimanan dan ketaqwaan melalui pembinaan Al-Islam dan Kemuhammadiyahan menyelenggarakan pendidikan berkualitas penelitian inovatif dan berdaya saing pengabdian masyarakat yang bermanfaat menjalin kemitraan nasional dan internasional serta menumbuhkan jiwa kewirausahaan di kalangan civitas akademika.",
+    "Fakultas Teknik: Struktur pimpinan Fakultas Teknik terdiri dari: Dekan Dr. Ir. Hj. Nurnawaty S.T. M.T. IPM Wakil Dekan I Ir. Muhammad Syafa'at S. Kuba S.T. M.T. Wakil Dekan II Dr. Ir. Andi Makbul Syamsuri S.T. M.T. IPM dan Wakil Dekan III Dr. Abd. Rahman Bahtiar S.Ag. M.A.",
+    "Fakultas Teknik: Fakultas Teknik memiliki akreditasi sebagai berikut: Teknik Pengairan Baik Sekali (SK 2022 berlaku hingga 20 Agustus 2027) Teknik Elektro B (SK 2021 berlaku hingga 11 Januari 2027) Arsitektur Unggul (SK 2023 berlaku hingga 17 Mei 2028) Informatika Baik (SK 2023 berlaku hingga 30 Mei 2028) Perencanaan Wilayah & Kota Baik (SK 2023 berlaku hingga 6 Juni 2028).",
+    "Fakultas Teknik: Fakultas Teknik bekerja sama dengan Universitas Teknologi Malaysia (UTM) dan Universitas Malaysia Kelantan (UMK) dalam workshop Internasional bertema Child-Friendly Environment (CFE) yang mencakup riset dan pengabdian masyarakat. Kegiatan diselenggarakan di Balai Sidang Muktamar Unismuh pada 19 September 2022 dengan penandatanganan MoU antara Unismuh dan Wali Kota Makassar serta dihadiri tim peneliti dari Malaysia.",
+    "Fakultas Teknik: Dekan Fakultas Teknik Dr. Nurnawaty melaporkan bahwa kolaborasi berlangsung selama lima hari sejak 18 hingga 23 September 2022. Rektor dan pimpinan universitas turut terlibat menegaskan pentingnya kerja sama internasional sebagai indikator kinerja fakultas dan universitas.",
+    "Fakultas Teknik: Wali Kota Makassar menyatakan bahwa Unismuh termasuk Fakultas Teknik merupakan mitra strategis dalam pembangunan kota. Fakultas Teknik terlibat dalam riset dan pengabdian yang mendukung pengembangan kota termasuk revitalisasi lorong wisata yang mencerminkan Tri Dharma Perguruan Tinggi dan nilai Islami.",
+    "Fakultas Teknik: Kolaborasi internasional ini difasilitasi oleh LPBKUI (Lembaga Pengembangan Bahasa Kerjasama dan Urusan Internasional) Unismuh yang memainkan peran penting dalam merintis hubungan penelitian pengabdian dan pertukaran akademik.",
+    "Fakultas Teknik: Fakultas Teknik menekankan pendidikan yang tidak hanya teknikal namun juga dilandasi nilai-nilai Islami dalam menghasilkan insinyur profesional yang berintegritas dan inovatif.",
+    "Fakultas Teknik: HMJ di Fakultas Teknik terdiri dari himpunan mahasiswa di tiap program studi yaitu Teknik Sipil Teknik Mesin Teknik Elektro Informatika Arsitektur serta Perencanaan Wilayah dan Kota. Seluruh HMJ berfungsi sebagai wadah untuk mempererat solidaritas mahasiswa meningkatkan keterampilan akademik dan non-akademik serta menyelenggarakan berbagai kegiatan seperti seminar pelatihan lomba ilmiah dan pengabdian masyarakat. HMJ juga menjadi ruang bagi mahasiswa untuk mengembangkan kreativitas kepemimpinan dan kerja sama tim sesuai karakteristik keilmuannya masing-masing.",
+    "Fakultas Teknik: Dosen dan mahasiswa aktif melaksanakan penelitian di bidang teknik sipil teknologi mesin kelistrikan informatika hingga perencanaan wilayah kota yang hasilnya dipublikasikan pada jurnal nasional dan internasional.",
+    "Fakultas Teknik: Mahasiswa Fakultas Teknik kerap menorehkan prestasi dalam lomba karya tulis ilmiah desain arsitektur kontes robot pengembangan aplikasi digital hingga kejuaraan olahraga dan seni tingkat nasional.",
+    "Fakultas Teknik: Fakultas menyediakan laboratorium teknik sipil elektro mesin arsitektur dan informatika ruang kuliah modern studio perancangan hingga akses internet kampus untuk mendukung kegiatan akademik.",
+    "Fakultas Teknik: Website menyediakan jadwal kuliah kalender akademik pedoman skripsi panduan KKP (Kuliah Kerja Profesi) hingga SOP akademik yang memudahkan mahasiswa dalam melaksanakan studi."
+  ],
+  "metadata": [
+    {
+      "source": "biaya_kuliah",
+      "row_id": 1,
+      "type": "financial_info",
+      "program_studi": "S-1 Pendidikan Dokter",
+      "akreditasi": "A dan ASIIN",
+      "uang_kuliah": "Rp. 19.500.000",
+      "uang_pembangunan": "Rp. 310.500.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 2,
+      "type": "financial_info",
+      "program_studi": "Profesi Dokter",
+      "akreditasi": "A dan ASIIN",
+      "uang_kuliah": "Rp. 22.500.000",
+      "uang_pembangunan": "Rp. 200.000.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 3,
+      "type": "financial_info",
+      "program_studi": "S-1 Farmasi",
+      "akreditasi": "Baik",
+      "uang_kuliah": "Rp. 5.000.000",
+      "uang_pembangunan": "Rp. 8.000.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 4,
+      "type": "financial_info",
+      "program_studi": "S-1 Kebidanan",
+      "akreditasi": "Terakreditasi",
+      "uang_kuliah": "Rp. 2.500.000",
+      "uang_pembangunan": "Rp. 6.400.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 5,
+      "type": "financial_info",
+      "program_studi": "Pendidikan Profesi Bidan",
+      "akreditasi": "Terakreditasi",
+      "uang_kuliah": "Rp. 20.200.000,- (Paket Semester 1 dan 2)",
+      "uang_pembangunan": "nan"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 6,
+      "type": "financial_info",
+      "program_studi": "D-3 Kebidanan",
+      "akreditasi": "Baik Sekali",
+      "uang_kuliah": "Rp. 3.000.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 7,
+      "type": "financial_info",
+      "program_studi": "D-3 Keperawatan",
+      "akreditasi": "Baik Sekali",
+      "uang_kuliah": "Rp. 3.000.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 8,
+      "type": "financial_info",
+      "program_studi": "S-1 Pendidikan Guru Sekolah Dasar",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.900.000",
+      "uang_pembangunan": "Rp. 6.000.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 9,
+      "type": "financial_info",
+      "program_studi": "S-1 Pendidikan Bahasa Inggris",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.300.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 10,
+      "type": "financial_info",
+      "program_studi": "S-1 Pendidikan Bahasa & Sastra Indonesia",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.500.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 11,
+      "type": "financial_info",
+      "program_studi": "S-1 Pendidikan Matematika",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.300.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 12,
+      "type": "financial_info",
+      "program_studi": "S-1 Pendidikan Seni Rupa",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.300.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 13,
+      "type": "financial_info",
+      "program_studi": "S-1 Pendidikan Sosiologi",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.300.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 14,
+      "type": "financial_info",
+      "program_studi": "S-1 Teknologi Pendidikan",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.300.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 15,
+      "type": "financial_info",
+      "program_studi": "S-1 Pendidikan Fisika",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.300.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 16,
+      "type": "financial_info",
+      "program_studi": "S-1 Pendidikan Pancasila dan Kewarganegaraan",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.050.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 17,
+      "type": "financial_info",
+      "program_studi": "S-1 Pendidikan Biologi",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.050.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 18,
+      "type": "financial_info",
+      "program_studi": "S-1 Pendidikan Guru Pendidikan Anak Usia Dini",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.050.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 19,
+      "type": "financial_info",
+      "program_studi": "Pendidikan Profesi Guru (PPG)",
+      "akreditasi": "A",
+      "uang_kuliah": "–",
+      "uang_pembangunan": "nan"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 20,
+      "type": "financial_info",
+      "program_studi": "S-1 Pendidikan Agama Islam",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 2.900.000",
+      "uang_pembangunan": "Rp. 3.100.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 21,
+      "type": "financial_info",
+      "program_studi": "S-1 Hukum Ekonomi Syariah (Mu’amalah)",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 2.500.000",
+      "uang_pembangunan": "Rp. 3.100.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 22,
+      "type": "financial_info",
+      "program_studi": "S-1 Bimbingan Konseling Pend. Islam",
+      "akreditasi": "Baik",
+      "uang_kuliah": "Rp. 2.000.000",
+      "uang_pembangunan": "Rp. 2.600.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 23,
+      "type": "financial_info",
+      "program_studi": "S-1 Pendidikan Bahasa Arab",
+      "akreditasi": "B",
+      "uang_kuliah": "Rp. 2.500.000",
+      "uang_pembangunan": "Rp. 2.400.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 24,
+      "type": "financial_info",
+      "program_studi": "S-1 Hukum Keluarga (Ahwal Syakhshiyah)",
+      "akreditasi": "B",
+      "uang_kuliah": "Rp. 2.500.000",
+      "uang_pembangunan": "Rp. 2.400.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 25,
+      "type": "financial_info",
+      "program_studi": "S-1 Komunikasi dan Penyiaran Islam",
+      "akreditasi": "Baik",
+      "uang_kuliah": "Rp. 2.500.000",
+      "uang_pembangunan": "Rp. 2.400.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 26,
+      "type": "financial_info",
+      "program_studi": "S-1 Akuntansi",
+      "akreditasi": "Baik Sekali",
+      "uang_kuliah": "Rp. 3.500.000",
+      "uang_pembangunan": "Rp. 5.000.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 27,
+      "type": "financial_info",
+      "program_studi": "S-1 Manajemen",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.500.000",
+      "uang_pembangunan": "Rp. 5.000.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 28,
+      "type": "financial_info",
+      "program_studi": "S-1 Ekonomi Pembangunan",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.000.000",
+      "uang_pembangunan": "Rp. 3.400.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 29,
+      "type": "financial_info",
+      "program_studi": "S-1 Ekonomi Islam",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.000.000",
+      "uang_pembangunan": "Rp. 3.400.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 30,
+      "type": "financial_info",
+      "program_studi": "D-3 Perpajakan",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 2.800.000",
+      "uang_pembangunan": "Rp. 3.400.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 31,
+      "type": "financial_info",
+      "program_studi": "S-1 Teknik Elektro",
+      "akreditasi": "B",
+      "uang_kuliah": "Rp. 3.600.000",
+      "uang_pembangunan": "Rp. 5.700.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 32,
+      "type": "financial_info",
+      "program_studi": "S-1 Teknik Pengairan",
+      "akreditasi": "Baik Sekali",
+      "uang_kuliah": "Rp. 3.600.000",
+      "uang_pembangunan": "Rp. 5.700.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 33,
+      "type": "financial_info",
+      "program_studi": "S-1 Arsitektur",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.600.000",
+      "uang_pembangunan": "Rp. 5.700.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 34,
+      "type": "financial_info",
+      "program_studi": "S-1 Informatika",
+      "akreditasi": "Baik",
+      "uang_kuliah": "Rp. 3.600.000",
+      "uang_pembangunan": "Rp. 5.700.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 35,
+      "type": "financial_info",
+      "program_studi": "S-1 Perencanaan Wilayah Kota",
+      "akreditasi": "Baik",
+      "uang_kuliah": "Rp. 3.600.000",
+      "uang_pembangunan": "Rp. 5.700.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 36,
+      "type": "financial_info",
+      "program_studi": "S-1 Ilmu Administrasi Negara",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.500.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 37,
+      "type": "financial_info",
+      "program_studi": "S-1 Ilmu Pemerintahan",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.500.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 38,
+      "type": "financial_info",
+      "program_studi": "S-1 Ilmu Komunikasi",
+      "akreditasi": "B",
+      "uang_kuliah": "Rp. 3.050.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 39,
+      "type": "financial_info",
+      "program_studi": "S-1 Agribisnis",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.300.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 40,
+      "type": "financial_info",
+      "program_studi": "S-1 Budidaya Perairan",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.300.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 41,
+      "type": "financial_info",
+      "program_studi": "S-1 Kehutanan",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 3.050.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 42,
+      "type": "financial_info",
+      "program_studi": "S-1 Agroteknologi",
+      "akreditasi": "Baik",
+      "uang_kuliah": "Rp. 3.050.000",
+      "uang_pembangunan": "Rp. 4.550.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 43,
+      "type": "financial_info",
+      "program_studi": "S-1 Hukum Bisnis",
+      "akreditasi": "Baik",
+      "uang_kuliah": "Rp. 4.000.000",
+      "uang_pembangunan": "Rp. 5.500.000"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 44,
+      "type": "financial_info",
+      "program_studi": "S-2 Manajemen",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 5.500.000",
+      "uang_pembangunan": "–"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 45,
+      "type": "financial_info",
+      "program_studi": "S-2 Ilmu Administrasi Publik",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 5.500.000",
+      "uang_pembangunan": "–"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 46,
+      "type": "financial_info",
+      "program_studi": "S-2 Pendidikan Islam",
+      "akreditasi": "Baik Sekali",
+      "uang_kuliah": "Rp. 5.000.000",
+      "uang_pembangunan": "–"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 47,
+      "type": "financial_info",
+      "program_studi": "S-2 Pend. Bahasa Indonesia",
+      "akreditasi": "Baik Sekali",
+      "uang_kuliah": "Rp. 5.500.000",
+      "uang_pembangunan": "–"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 48,
+      "type": "financial_info",
+      "program_studi": "S-2 Pendidikan Dasar",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 5.500.000",
+      "uang_pembangunan": "–"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 49,
+      "type": "financial_info",
+      "program_studi": "S-2 Pendidikan Bahasa Inggris",
+      "akreditasi": "B",
+      "uang_kuliah": "Rp. 5.000.000",
+      "uang_pembangunan": "–"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 50,
+      "type": "financial_info",
+      "program_studi": "S-2 Agribisnis",
+      "akreditasi": "B",
+      "uang_kuliah": "Rp. 5.000.000",
+      "uang_pembangunan": "–"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 51,
+      "type": "financial_info",
+      "program_studi": "S-2 Pendidikan Matematika",
+      "akreditasi": "Baik",
+      "uang_kuliah": "Rp. 5.000.000",
+      "uang_pembangunan": "–"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 52,
+      "type": "financial_info",
+      "program_studi": "S-2 Teknik Sumber Daya Air (Pengairan)",
+      "akreditasi": "Baik",
+      "uang_kuliah": "Rp. 6.000.000",
+      "uang_pembangunan": "nan"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 53,
+      "type": "financial_info",
+      "program_studi": "S-2 Pendidikan Sosiologi",
+      "akreditasi": "Unggul",
+      "uang_kuliah": "Rp. 5.000.000",
+      "uang_pembangunan": "–"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 54,
+      "type": "financial_info",
+      "program_studi": "S-2 Akuntansi",
+      "akreditasi": "Terakreditasi",
+      "uang_kuliah": "Rp. 5.500.000",
+      "uang_pembangunan": "nan"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 55,
+      "type": "financial_info",
+      "program_studi": "S-3 Pendidikan Agama Islam",
+      "akreditasi": "Baik",
+      "uang_kuliah": "Rp. 10.000.000",
+      "uang_pembangunan": "–"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 56,
+      "type": "financial_info",
+      "program_studi": "S-3 Pendidikan",
+      "akreditasi": "Baik Sekali",
+      "uang_kuliah": "Rp. 12.000.000",
+      "uang_pembangunan": "–"
+    },
+    {
+      "source": "biaya_kuliah",
+      "row_id": 57,
+      "type": "financial_info",
+      "program_studi": "S-3 Agribisnis",
+      "akreditasi": "Baik",
+      "uang_kuliah": "Rp. 10.000.000",
+      "uang_pembangunan": "–"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 0,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 1,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 2,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 3,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 4,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 5,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 6,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 7,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 8,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 9,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 10,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 11,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 12,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 13,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 14,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 15,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 16,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 17,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 18,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 19,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 20,
+      "type": "academic_info",
+      "fakultas_id": "FEB",
+      "fakultas_name": "Fakultas Ekonomi dan Bisnis"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 21,
+      "type": "academic_info",
+      "fakultas_id": "FT",
+      "fakultas_name": "Fakultas Teknik"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 22,
+      "type": "academic_info",
+      "fakultas_id": "FT",
+      "fakultas_name": "Fakultas Teknik"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 23,
+      "type": "academic_info",
+      "fakultas_id": "FT",
+      "fakultas_name": "Fakultas Teknik"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 24,
+      "type": "academic_info",
+      "fakultas_id": "FT",
+      "fakultas_name": "Fakultas Teknik"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 25,
+      "type": "academic_info",
+      "fakultas_id": "FT",
+      "fakultas_name": "Fakultas Teknik"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 26,
+      "type": "academic_info",
+      "fakultas_id": "FT",
+      "fakultas_name": "Fakultas Teknik"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 27,
+      "type": "academic_info",
+      "fakultas_id": "FT",
+      "fakultas_name": "Fakultas Teknik"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 28,
+      "type": "academic_info",
+      "fakultas_id": "FT",
+      "fakultas_name": "Fakultas Teknik"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 29,
+      "type": "academic_info",
+      "fakultas_id": "FT",
+      "fakultas_name": "Fakultas Teknik"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 30,
+      "type": "academic_info",
+      "fakultas_id": "FT",
+      "fakultas_name": "Fakultas Teknik"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 31,
+      "type": "academic_info",
+      "fakultas_id": "FT",
+      "fakultas_name": "Fakultas Teknik"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 32,
+      "type": "academic_info",
+      "fakultas_id": "FT",
+      "fakultas_name": "Fakultas Teknik"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 33,
+      "type": "academic_info",
+      "fakultas_id": "FT",
+      "fakultas_name": "Fakultas Teknik"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 34,
+      "type": "academic_info",
+      "fakultas_id": "FT",
+      "fakultas_name": "Fakultas Teknik"
+    },
+    {
+      "source": "fakultas_csv",
+      "row_id": 35,
+      "type": "academic_info",
+      "fakultas_id": "FT",
+      "fakultas_name": "Fakultas Teknik"
+    }
+  ],
+  "embedding_dim": 768
+}
