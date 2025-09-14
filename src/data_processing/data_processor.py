@@ -13,18 +13,34 @@ class DataProcessor:
         self.documents = []
         self.metadata = []
 
-    def process_fakultas_json_data(self, data_folder: str = "data") -> List[str]:
+    def process_fakultas_json_data(self, data_folder: str = None) -> List[str]:
         """
         Memproses data fakultas dari file JSON baru
         """
+        # Set default data folder dengan path absolut
+        if data_folder is None:
+            # Get current working directory dan cari folder data
+            current_dir = os.getcwd()
+            # Check if we're in pengujian folder
+            if current_dir.endswith('pengujian'):
+                data_folder = os.path.join(os.path.dirname(current_dir), 'data')
+            else:
+                data_folder = os.path.join(current_dir, 'data')
+
         json_files = ['data_feb.json', 'data_fkip.json', 'data_ft.json']
         documents = []
 
+        print(f"Looking for JSON files in: {data_folder}")
+
         for json_file in json_files:
             file_path = os.path.join(data_folder, json_file)
+            print(f"Checking file: {file_path}")
             if os.path.exists(file_path):
+                print(f"Processing file: {json_file}")
                 documents_from_file = self._process_single_fakultas_json(file_path)
                 documents.extend(documents_from_file)
+            else:
+                print(f"File not found: {file_path}")
 
         self.documents.extend(documents)
         print(f"Processed {len(documents)} documents from JSON files")
