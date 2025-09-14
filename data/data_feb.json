@@ -1,0 +1,154 @@
+{
+  "fakultas": "Fakultas Ekonomi dan Bisnis",
+  "sejarah": "Fakultas Ekonomi dan Bisnis (FEB) Unismuh Makassar merupakan salah satu fakultas terbesar dengan kiprah lebih dari setengah abad, berperan dalam pengembangan ilmu ekonomi, bisnis, dan akuntansi berbasis nilai-nilai Islam.",
+  "visi": "Menjadi pusat pengembangan ilmu ekonomi, bisnis, dan akuntansi yang unggul, modern, dan Islami.",
+  "misi": [
+    "Menyelenggarakan pendidikan ekonomi, bisnis, dan akuntansi berbasis riset.",
+    "Mengembangkan penelitian dan publikasi ilmiah berstandar nasional maupun internasional.",
+    "Mengintegrasikan nilai-nilai Islam dalam pengembangan keilmuan.",
+    "Meningkatkan peran serta dalam pembangunan ekonomi dan bisnis masyarakat."
+  ],
+  "pimpinan": {
+    "dekan": "Dr. Andi Jam'an, S.E., M.Si.",
+    "wakil_dekan": {
+      "I": "Agusdiwana Suarni, S.E., M.Acc",
+      "II": "Dr. Muchriana Muchran, S.E., M.Si., Ak, CA",
+      "III": "Abdul Muttalib, S.E., M.M",
+      "IV": "Dr. Sulaeman Masnan, S.Pd.I., M.Pd.I"
+    }
+  },
+  "kerjasama_internasional": {},
+  "pendidikan_berbasis_islam": "Seluruh kegiatan akademik dan non-akademik di FEB Unismuh Makassar berlandaskan nilai-nilai Al-Islam dan Kemuhammadiyahan.",
+  "organisasi_mahasiswa": {
+    "hmj": [
+      "Himpunan Mahasiswa Manajemen",
+      "Himpunan Mahasiswa Akuntansi",
+      "Himpunan Mahasiswa Ekonomi Pembangunan",
+      "Himpunan Mahasiswa Ekonomi Islam",
+      "Himpunan Mahasiswa Perpajakan"
+    ],
+    "fungsi": "Sebagai wadah pengembangan minat, bakat, dan potensi kepemimpinan mahasiswa FEB Unismuh Makassar."
+  },
+  "program_studi": {
+    "S-1 Manajemen": {
+      "informasi": "Program studi yang fokus pada pengembangan keilmuan manajemen, kewirausahaan, dan strategi bisnis.",
+      "fasilitas": [
+        "Laboratorium Manajemen",
+        "Ruang diskusi & seminar",
+        "Akses jurnal internasional"
+      ],
+      "akreditasi": {
+        "akreditasi": "Unggul",
+        "sk": "",
+        "berlaku_hingga": ""
+      },
+      "visi_misi": {
+        "visi": "Menjadi program studi manajemen yang unggul, inovatif, dan Islami.",
+        "misi": [
+          "Menyelenggarakan pendidikan manajemen berbasis riset.",
+          "Mengembangkan budaya wirausaha berbasis teknologi.",
+          "Mengintegrasikan nilai-nilai Islam dalam praktik bisnis."
+        ]
+      },
+      "biaya_kuliah": {
+        "uang_semester": "Rp. 3.500.000",
+        "uang_pembangunan": "Rp. 5.000.000"
+      }
+    },
+    "S-1 Akuntansi": {
+      "informasi": "Program studi akuntansi yang berfokus pada audit, perpajakan, dan sistem informasi akuntansi.",
+      "fasilitas": [
+        "Laboratorium Akuntansi",
+        "Software akuntansi & perpajakan",
+        "Pusat pelatihan sertifikasi"
+      ],
+      "akreditasi": {
+        "akreditasi": "Baik Sekali",
+        "sk": "",
+        "berlaku_hingga": ""
+      },
+      "visi_misi": {
+        "visi": "Menjadi program studi akuntansi unggul dan Islami.",
+        "misi": [
+          "Meningkatkan mutu pendidikan akuntansi.",
+          "Menghasilkan lulusan yang profesional dan berintegritas.",
+          "Mengembangkan penelitian dan pengabdian masyarakat."
+        ]
+      },
+      "biaya_kuliah": {
+        "uang_semester": "Rp. 3.500.000",
+        "uang_pembangunan": "Rp. 5.000.000"
+      }
+    },
+    "S-1 Ekonomi Pembangunan": {
+      "informasi": "Fokus pada analisis kebijakan ekonomi, pembangunan daerah, dan isu makro ekonomi.",
+      "fasilitas": [
+        "Laboratorium Ekonomi",
+        "Kelas digital",
+        "Ruang seminar"
+      ],
+      "akreditasi": {
+        "akreditasi": "Unggul",
+        "sk": "",
+        "berlaku_hingga": ""
+      },
+      "visi_misi": {
+        "visi": "Menjadi pusat pengembangan ilmu ekonomi pembangunan yang unggul dan Islami.",
+        "misi": [
+          "Meningkatkan kualitas pembelajaran berbasis riset.",
+          "Menghasilkan lulusan yang kompeten dalam analisis kebijakan ekonomi."
+        ]
+      },
+      "biaya_kuliah": {
+        "uang_semester": "Rp. 3.000.000",
+        "uang_pembangunan": "Rp. 3.400.000"
+      }
+    },
+    "S-1 Ekonomi Islam": {
+      "informasi": "Mempelajari teori dan praktik ekonomi berbasis syariah.",
+      "fasilitas": [
+        "Laboratorium Ekonomi Syariah",
+        "Pusat Kajian Ekonomi Islam"
+      ],
+      "akreditasi": {
+        "akreditasi": "Unggul",
+        "sk": "",
+        "berlaku_hingga": ""
+      },
+      "visi_misi": {
+        "visi": "Menjadi program studi ekonomi Islam yang unggul dan berdaya saing global.",
+        "misi": [
+          "Mengintegrasikan ekonomi dengan nilai Islam.",
+          "Menghasilkan lulusan profesional di bidang ekonomi syariah."
+        ]
+      },
+      "biaya_kuliah": {
+        "uang_semester": "Rp. 3.000.000",
+        "uang_pembangunan": "Rp. 3.400.000"
+      }
+    },
+    "D-3 Perpajakan": {
+      "informasi": "Menyiapkan tenaga profesional bidang perpajakan.",
+      "fasilitas": [
+        "Laboratorium Perpajakan",
+        "Simulasi pajak online"
+      ],
+      "akreditasi": {
+        "akreditasi": "Unggul",
+        "sk": "",
+        "berlaku_hingga": ""
+      },
+      "visi_misi": {
+        "visi": "Menjadi program studi vokasi unggul dalam bidang perpajakan.",
+        "misi": [
+          "Menghasilkan lulusan ahli perpajakan yang profesional.",
+          "Meningkatkan keterampilan praktis berbasis regulasi terbaru."
+        ]
+      },
+      "biaya_kuliah": {
+        "uang_semester": "Rp. 2.800.000",
+        "uang_pembangunan": "Rp. 3.400.000"
+      }
+    }
+  }
+}

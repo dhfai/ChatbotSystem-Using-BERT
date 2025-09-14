@@ -21,8 +21,8 @@ class Config:
     MAX_CONTEXT_LENGTH = 10  # Maximum previous messages to keep in context
 
     # Data Paths
-    DATA_BIAYA_PATH = "data/data_biaya_kuliah.csv"
-    DATA_FAKULTAS_PATH = "data/datafux_fixed.csv"  # Updated to use the new CSV file
+    DATA_FOLDER = "data"
+    DATA_JSON_FILES = ["data_feb.json", "data_fkip.json", "data_ft.json"]
 
     # API Configuration
     API_HOST = "0.0.0.0"

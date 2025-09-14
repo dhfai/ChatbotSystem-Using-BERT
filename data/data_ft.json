@@ -1,0 +1,170 @@
+{
+  "fakultas": "Fakultas Teknik UNISMUH",
+  "sejarah": "Fakultas Teknik UNISMUH berdiri sejak tahun 1987 ditandai dengan operasionalnya Program Studi Teknik Pengairan berdasarkan SK No 0628/O/1989. Pada tahun yang sama prodi ini mulai menerima mahasiswa baru. Sejak itu selama lebih dari 30 tahun fakultas ini telah mendidik tenaga teknik yang berkompetensi dan tersebar di berbagai daerah maupun internasional berkontribusi dalam pembangunan nasional.",
+  "visi": "Menjadi lembaga yang Islami unggul dalam bidang teknik dipercaya oleh masyarakat dan mandiri dalam pengelolaan administratif maupun akademik.",
+  "misi": [
+    "Meningkatkan keimanan dan ketaqwaan melalui pembinaan Al-Islam dan Kemuhammadiyahan",
+    "Menyelenggarakan pendidikan berkualitas",
+    "Melaksanakan penelitian inovatif dan berdaya saing",
+    "Mengadakan pengabdian masyarakat yang bermanfaat",
+    "Menjalin kemitraan nasional dan internasional",
+    "Menumbuhkan jiwa kewirausahaan di kalangan civitas akademika"
+  ],
+  "pimpinan": {
+    "dekan": "Dr. Ir. Hj. Nurnawaty S.T. M.T. IPM",
+    "wakil_dekan": {
+      "I": "Ir. Muhammad Syafa'at S. Kuba S.T. M.T.",
+      "II": "Dr. Ir. Andi Makbul Syamsuri S.T. M.T. IPM",
+      "III": "Dr. Abd. Rahman Bahtiar S.Ag. M.A."
+    }
+  },
+  "kerjasama_internasional": {
+    "mitra": ["Universitas Teknologi Malaysia (UTM)", "Universitas Malaysia Kelantan (UMK)"],
+    "kegiatan": "Workshop Internasional Child-Friendly Environment (CFE) mencakup riset dan pengabdian masyarakat",
+    "lokasi": "Balai Sidang Muktamar Unismuh",
+    "tanggal": "19 September 2022",
+    "laporan": "Kolaborasi berlangsung 18-23 September 2022 dipimpin oleh Dekan Dr. Nurnawaty, melibatkan Rektor dan pimpinan universitas",
+    "dukungan": "Wali Kota Makassar menegaskan Unismuh sebagai mitra strategis pembangunan kota",
+    "fasilitator": "LPBKUI Unismuh"
+  },
+  "pendidikan_berbasis_islam": "Fakultas Teknik menekankan pendidikan yang tidak hanya teknikal namun juga dilandasi nilai-nilai Islami dalam menghasilkan insinyur profesional yang berintegritas dan inovatif.",
+  "organisasi_mahasiswa": {
+    "hmj": [
+      "Teknik Sipil",
+      "Teknik Elektro",
+      "Informatika",
+      "Arsitektur",
+      "Perencanaan Wilayah dan Kota"
+    ],
+    "fungsi": "Sebagai wadah mempererat solidaritas mahasiswa, meningkatkan keterampilan akademik dan non-akademik, menyelenggarakan kegiatan seminar, pelatihan, lomba ilmiah, dan pengabdian masyarakat."
+  },
+  "penelitian_dan_publikasi": "Dosen dan mahasiswa aktif meneliti bidang teknik sipil, teknologi mesin, kelistrikan, informatika, hingga perencanaan wilayah kota yang dipublikasikan di jurnal nasional dan internasional.",
+  "prestasi_mahasiswa": "Mahasiswa kerap menorehkan prestasi dalam lomba karya tulis ilmiah, desain arsitektur, kontes robot, pengembangan aplikasi digital, hingga kejuaraan olahraga dan seni tingkat nasional.",
+  "program_studi": {
+    "Teknik Pengairan": {
+        "informasi": "Program Studi Teknik Pengairan hadir sebagai pusat pendidikan, penelitian, dan pengabdian masyarakat yang berfokus pada pengelolaan sumber daya air secara berkelanjutan. Dengan berlandaskan nilai-nilai Islami, kami berkomitmen untuk mencetak lulusan yang profesional, berintegritas, dan memiliki keahlian dalam merancang, mengelola, serta mengoptimalkan pemanfaatan air demi kesejahteraan masyarakat dan kelestarian lingkungan. Melalui website resmi ini, kami berharap dapat menyajikan informasi yang transparan dan bermanfaat mengenai visi, misi, kurikulum, kegiatan akademik, penelitian, maupun berbagai prestasi yang diraih oleh mahasiswa dan dosen. Semoga keberadaan website ini menjadi sarana komunikasi yang efektif bagi mahasiswa, alumni, orang tua, mitra kerja, serta masyarakat luas dalam mendukung pengembangan ilmu dan teknologi di bidang teknik pengairan. Akhir kata, kami mengucapkan terima kasih atas perhatian, dukungan, dan sinergi dari semua pihak. Mari bersama-sama membangun Program Studi Teknik Pengairan Universitas Muhammadiyah Makassar menuju masa depan yang lebih maju, unggul, dan berdaya saing global.",
+        "fasilitas": [
+            "Laboratorium Hidraulika",
+            "Laboratorium Hidrologi",
+            "Laboratorium Sumber Daya Air"
+        ],
+        "akreditasi": {
+            "program_studi": "Teknik Pengairan",
+            "akreditasi": "Baik Sekali",
+            "sk": "2022",
+            "berlaku_hingga": "20 Agustus 2027"
+        },
+        "visi_misi":{
+            "visi": "",
+            "misi": []
+        },
+        "biaya_kuliah": {
+            "uang_semester": "Rp. 3.600.000",
+            "uang_pembangunan": "Rp. 5.700.000"
+        }
+    },
+    "Teknik Elektro": {
+        "informasi": "Program Studi Teknik Elektro Universitas Muhammadiyah Makassar adalah sebuah entitas akademis yang didirikan pada 24 Juni 2005 melalui Surat Keputusan Menteri Pendidikan dan Kebudayaan RI Nomor 1995/D/T/2005. Sebagai bagian integral dari Fakultas Teknik, prodi ini telah mengalami beberapa kali perubahan kurikulum untuk menjawab tuntutan zaman dan kebutuhan industri. Memperoleh akreditasi B pada tahun 2017 oleh BAN-PT, Program Studi Teknik Elektro Unismuh Makassar memiliki komitmen untuk memberikan pendidikan unggul di bidang energi terbarukan dengan fokus pada Teknologi Cerdas dan IoT (Internet of Things) yang bersifat slami, terpercaya, dan mandiri.",
+        "fasilitas": [
+            "Laboratorium Elektronika",
+            "Laboratorium Sistem Tenaga",
+            "Laboratorium Kendali",
+            "Laboratorium Telekomunikasi"
+        ],
+        "akreditasi": {
+            "program_studi": "Teknik Elektro",
+            "akreditasi": "B",
+            "sk": "2021",
+            "berlaku_hingga": "11 Januari 2027"
+        },
+        "visi_misi": {
+            "visi": "Visi prodi ini adalah untuk mewujudkan keunggulan dalam bidang energi terbarukan, dan misinya mencakup peningkatan wawasan Al Islam Kemuhammadiyahan, peningkatan kualitas pembelajaran di bidang Teknik Listrik, Teknik Telekomunikasi, dan Teknik Komputer berbasis IoT, penelitian yang inovatif dan berdaya saing, pengembangan hasil penelitian melalui pengabdian kepada masyarakat, serta membangun kemitraan dengan alumni, lembaga pendidikan tinggi, dunia industri, pemerintah, dan lembaga masyarakat, baik di dalam maupun di luar negeri. Dengan demikian, Program Studi Teknik Elektro Unismuh Makassar bertujuan menjadi pusat pendidikan yang tidak hanya berfokus pada penguasaan keilmuan, tetapi juga pada pengembangan karakter dan kontribusi positif terhadap kemajuan teknologi dan masyarakat.",
+            "misi": [
+               "Meningkatkan Wawasan Al Islam Kemuhammadiyahan",
+               "Meningkatkan kualitas pembelajaran kompetensi keilmuan di bidang Teknik Listrik, Teknik Telekomunikasi dan Teknik Komputer yang berbasis IoT.",
+               "Meningkatkan penelitian yang inovatif, unggul dan berdaya saing.",
+               "Mengembangkan dan mengaplikasikan hasil penelitian ke dalam bentuk pengabdian kepada masyarakat.",
+               "Mengembangkan kemitraan dan kerjasama dengan alumni, lembaga pendidikan tinggi lain, dunia industri, pemerintah dan lembaga masyarakat baik di dalam negeri maupun di luar negeri."
+
+            ]
+        },
+        "biaya_kuliah": {
+            "uang_semester": "Rp. 3.600.000",
+            "uang_pembangunan": "Rp. 5.700.000"
+        }
+    },
+    "Arsitektur": {
+        "informasi": "Program Studi Arsitektur melalui surat keputusan Menteri Pendidikan dan Kebudayaan RI Nomor 458/E/O/2014 pada tanggal 07 Oktober 2014 tentang Ijin Penyelenggaraan Program Studi  Arsitektur Unismuh Makassar, resmi membuka penerimaan mahasiswa baru dan memulai aktivitas perkuliahan pada Tahun Akademik 2015/2016 dengan berpedoman pada Permenristekdikti No.49 tahun 2014.",
+        "fasilitas": [
+            "Laboratorium Desain Arsitektur",
+            "Laboratorium Komputasi Arsitektur",
+            "Laboratorium Material dan Konstruksi"
+        ],
+        "akreditasi": {
+            "program_studi": "Arsitektur",
+            "akreditasi": "Unggul",
+            "sk": "2023",
+            "berlaku_hingga": "17 Mei 2028"
+        },
+        "visi_misi": {
+            "visi": "Visi Program Studi Arsitektur. yaitu “Menjadi Program Studi yang Unggul, Terpercaya, dan Mandiri di bidang Perancangan Arsitektur yang berwawasan Humanis, Berkelanjutan, dan Islami pada Tahun 2028 ”.",
+            "misi": [
+                "Menyelenggarakan pendidikan dan pengajaran yang unggul dalam perancangan Arsitektur Humanis dan Berkelanjutan yang berlandaskan nilai-nilai Islami melalui desain inklusif yang berwawasan sains dan teknologi;",
+                "Melaksanakan penelitian berwawasan arsitektur humanis, berkelanjutan yang berlandaskan nilai-nilai Islami dengan pendekatan sains dan teknologi",
+                "Melaksanakan pengabdian kepada masyarakat pada bidang Arsitektur yang terpercaya, memiliki kemandirian, dan menjunjung tinggi nilai-nilai islami, kemanusiaan, dan keberlanjutan.",
+                "Menyelenggarakan pembinaan Al Islam dan Kemuhammadiyahan kepada civitas akademika melalui pendidikan, penelitian dan pengabdian kepada masyarakat secara berkesinambungan.",
+                "Menumbuhkembangkan jiwa kewirausahaan bagi civitas akademika dan alumni."
+            ]
+        },
+        "biaya_kuliah": {
+            "uang_semester": "Rp. 3.600.000",
+            "uang_pembangunan": "Rp. 5.700.000"
+        }
+    },
+    "Informatika": {
+        "informasi": "Program Studi Informatika adalah prodi yang berfokus pada teknologi informasi, pemrograman, jaringan komputer, spesialisasi dalam kecerdasan buatan dan juga pengembangan perangkat lunak berbasis web. Program Studi Informatika hadir sebagai wadah pendidikan, penelitian, dan pengabdian masyarakat di bidang ilmu komputer serta teknologi informasi, dengan berlandaskan nilai-nilai Islami. Kami berkomitmen untuk menghasilkan lulusan yang tidak hanya kompeten secara akademik dan profesional, tetapi juga berakhlak mulia, inovatif, serta mampu menjawab tantangan di era digital yang semakin dinamis. Melalui website resmi ini, kami berharap dapat memberikan informasi yang lengkap dan transparan mengenai visi, misi, kurikulum, kegiatan akademik, maupun berbagai prestasi mahasiswa dan dosen. Semoga website ini dapat menjadi sarana komunikasi yang bermanfaat bagi mahasiswa, alumni, orang tua, mitra industri, serta masyarakat luas. Akhir kata, kami mengucapkan terima kasih atas perhatian dan dukungan semua pihak. Mari kita bersama-sama membangun Program Studi Informatika Universitas Muhammadiyah Makassar menjadi lebih maju dan berdaya saing global.",
+        "fasilitas": [
+            "Laboratorium Pemrograman",
+            "Laboratorium Jaringan Komputer",
+            "Laboratorium Kecerdasan Buatan"
+        ],
+        "akreditasi": {
+            "program_studi": "Informatika",
+            "akreditasi": "Baik",
+            "sk": "2023",
+            "berlaku_hingga": "30 Mei 2028"
+        },
+        "visi_misi": {
+            "visi": "Menjadi Pusat Pengembangan Studi Informatika dalam Bidang Kecerdasan Buatan yang Islami, Unggul, Mandiri dan Terpercaya",
+            "misi": [
+                "Melaksanakan pendidikan dan pengajaran keilmuan Informatika yang professional dalam bidang kecerdasan buatan yang berjiwa wirausaha dan berwawasan Al Islami Kemuhammadiyahan.",
+                "Melaksanakan penelitian pada bidang kecerdasan buatan dalam peningkatan kualitas artikel ilmiah di tingkat nasional maupun internasional.",
+                "Melaksanakan pengabdian kepada masyarakat melalui pemberdayaan dalam pemanfaatan teknologi informasi secara positif dan berwawasan Al Islam Kemuhammadiyahan.",
+                "Menjalin kemitraan secara berkelanjutan dengan lembaga pendidikan dan stakeholder terkait."
+            ]
+        }
+    },
+    "Perencanaan Wilayah dan Kota": {
+        "informasi": "Prodi Perencanaan Wilayah dan Kota adalah program studi yang fokus pada pembelajaran perencanaan dan pengembangan wilayah serta kota, termasuk aspek-aspek seperti tata ruang, transportasi, lingkungan dan pengembangan ekonomi.",
+        "fasilitas": [
+            "Laboratorium Perencanaan",
+            "Laboratorium GIS",
+            "Laboratorium Desain Kota"
+        ],
+        "akreditasi": {
+            "program_studi": "Perencanaan Wilayah dan Kota",
+            "akreditasi": "Baik",
+            "sk": "2023",
+            "berlaku_hingga": "6 Juni 2028"
+        },
+        "visi_misi": {
+            "visi": "Menjadi Pusat Program Studi Perencanaan Wilayah dan Kota yang unggul pada bidang penataan infrastruktur wilayah berwawasan lingkungan islami terkemuka, terpercaya, dan mandiri.",
+            "misi": [
+                "Menyelenggarakan iklim akademik berwawasan Al Islam Kemuhammadiyahan.",
+                "Melaksanakan Penelitian dan pengabdian masyarakat pada bidang penataan infrastruktur wilayah berwawasan lingkungan.",
+                "Melaksanakan kerjasama kemitraan pada bidang akademik, penelitian dan pengabdian masyarakat."
+            ]
+        }
+    }
+  }
+}

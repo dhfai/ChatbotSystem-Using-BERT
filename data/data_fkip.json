@@ -1,0 +1,303 @@
+{
+  "fakultas": "Fakultas Keguruan dan Ilmu Pendidikan (FKIP) Universitas Muhammadiyah Makassar",
+  "sejarah": "FKIP merupakan salah satu fakultas tertua di Unismuh Makassar. Berdiri sejak awal pendirian Universitas Muhammadiyah Makassar tahun 1963, FKIP menjadi cikal bakal penyelenggaraan pendidikan tinggi di lingkungan Muhammadiyah Sulawesi Selatan.",
+  "visi": "Pada tahun 2030 menjadi fakultas berkarakter Islami yang unggul dan terpercaya dalam pengembangan ilmu pendidikan dan keguruan melalui penguatan caturdharma perguruan tinggi.",
+  "misi": [
+    "Menyelenggarakan pembelajaran yang terintegrasi dengan Al-Islam dan Kemuhammadiyahan.",
+    "Mengembangkan pendidikan berbasis teknologi pada setiap program studi.",
+    "Menguatkan penelitian dan pengabdian masyarakat melalui kemitraan dengan berbagai pihak.",
+    "Meningkatkan kualitas sumber daya manusia melalui studi lanjut dan pelatihan."
+  ],
+  "pimpinan": {
+    "dekan": "Dr. H. Baharullah, M.Pd.",
+    "wakil_dekan": {
+      "I": "Dr. Andi Husniati, M.Pd",
+      "II": "Dr. Tasrif Akib, S.Pd.,M.Pd",
+      "III": "Dr. Muhammad Nawir, M.Pd",
+      "IV": "Dr. Sam'un Mukramin, S.Pd., M.Pd"
+    }
+  },
+  "kerjasama_internasional": {
+    "mitra": [],
+    "program": []
+  },
+  "pendidikan_berbasis_islam": "Integrasi nilai-nilai Islami, Al-Islam, dan Kemuhammadiyahan dalam setiap aktivitas pendidikan, penelitian, dan pengabdian.",
+  "organisasi_mahasiswa": {
+    "hmj": [
+      "HMJ Pendidikan Bahasa & Sastra Indonesia",
+      "HMJ Pendidikan Bahasa Inggris",
+      "HMJ Pendidikan Matematika",
+      "HMJ PGSD",
+      "HMJ Teknologi Pendidikan",
+      "HMJ Pendidikan Sosiologi",
+      "HMJ Pendidikan Fisika",
+      "HMJ Pendidikan Biologi",
+      "HMJ PPKn",
+      "HMJ PG-PAUD",
+      "HMJ Pendidikan Seni Rupa"
+    ],
+    "fungsi": "Wadah pengembangan minat, bakat, kepemimpinan, dan keilmuan mahasiswa di tingkat program studi."
+  },
+  "program_studi": {
+    "Pendidikan Bahasa & Sastra Indonesia": {
+        "informasi": "Prodi Pendidikan Bahasa dan Sastra Indonesia Fakultas Keguruan dan Ilmu Pendidikan Universitas Muhammadiyah Makassar memiliki komitmen untuk menghasilkan lulusan pendidikan dan pengajaran Bahasa dan sastra Indonesia yang memiliki karaker islami. Sarjana pendidikan Bahasa dan sastra Indonesia yang menguasai pembelajaran berbasis multimedia yang terintegritas pada ajaran al-islam kemuhammadiyahan. Adapun lulusan yang diharapkan menjadi guru Bahasa dan sastra indonesia yang profesional dengan memanfaatkan IPTEKS, menjadi peneliti dan pengabdian pada masyarakat dengan kajian teori pada bidang Bahasa dan sastra indonesia yang telah terimplementasikan. Selain itu, diharapkan lulusan yang memiliki jiwa entrepreneur dengan menerapkan konsep teori wirausaha Bahasa dan sastra Indonesia.",
+        "fasilitas": [
+            ""
+        ],
+        "akreditasi": {
+            "program_studi": "Pendidikan Bahasa & Sastra Indonesia",
+            "akreditasi": "Unggul",
+            "sk": "2022",
+            "berlaku_hingga": "25 Oktober 2027"
+        },
+        "visi_misi":{
+            "visi": "Menghasilkan lulusan unggul dan terpercaya dalam menerapkan pembelajaran Bahasa Indonesia, Ilmu bahasa, dan Sastra Berbasis Multimedia yang berkarakter Islami",
+            "misi": [
+                "Menyelenggarakan pendidikan dan pengajaran Bahasa dan Sastra Indonesia yang terintegrasi dengan Al Islam Kemuhammadiyaan;",
+                "Menyelenggarakan proses pembelajaran berbasis multimedia dalam bidang pembelajaran bahasa dan sastra Indonesia;",
+                "Menyelenggarakan penelitian dan pengabdian kepada masyarakat dalam bidang pendidikan bahasa dan sastra Indonesia",
+                "Mengembangkan jaringan kerjasama dengan berbagai lembaga dalam negeri dan luar negeri untuk melaksanakan Catur Dharma Perguruan Tinggi"
+            ]
+        },
+        "biaya_kuliah": {
+            "uang_semester": "Rp. 3.900.000",
+            "uang_pembangunan": "Rp. 6.000.000"
+        }
+    },
+    "Pendidikan Bahasa Inggris": {
+        "informasi": "Program studi Pendidikan Bahasa Inggris FKIP Unismuh Makassar berdiri sejak 11 September 1993 melalui SK Kementerian Pendidikan dan Kebudayaan No. 528/DIKTI/Kep/1993. Bertujuan membentuk lulusan dengan kompetensi pedagogik, teknologi pendidikan, dan karakter Islami.",
+        "fasilitas": [
+            "Laboratorium Bahasa",
+            "Microteaching Laboratory",
+            "Computer Laboratory",
+            "Faculty Library",
+            "E-Books",
+            "E-Myths"
+        ],
+        "akreditasi": {
+            "akreditasi": "Unggul",
+            "sk": "2022",
+            "berlaku_hingga": "2027"
+        },
+        "visi_misi": {
+            "visi": "Menghasilkan pendidik Bahasa Inggris yang unggul secara nasional dan global, berbasis nilai Islami dan kompetensi profesional modern.",
+            "misi": []
+        },
+        "biaya_kuliah": {
+            "uang_semester": "Rp. 3.300.000",
+            "uang_pembangunan": "Rp. 4.550.000"
+        }
+    },
+    "Pendidikan Matematika": {
+      "informasi": "Program Studi Pendidikan Matematika FKIP Unismuh Makassar didirikan tahun 1991 dan secara resmi terdaftar pada 11 September 1993 melalui SK Dirjen Dikti No. 528/Dikti/Kep/1993. Terakreditasi Unggul berdasarkan SK BAN-PT No. 2198/BAN-PT/Akred/S/VII/2017. Saat ini memiliki sekitar 454 mahasiswa dan 35 dosen.",
+      "fasilitas": [],
+      "akreditasi": {
+        "akreditasi": "Unggul",
+        "sk": "3509/SK/BAN-PT/Akred/S/IX/2019",
+        "berlaku_hingga": ""
+      },
+      "visi_misi": {
+        "visi": "Menjadi program studi yang unggul dalam merencanakan dan mengaplikasikan inovasi pembelajaran matematika, berjiwa entrepreneur dan berkarakter Islami.",
+        "misi": [
+          "Menyelenggarakan pendidikan dan pengajaran matematika berbasis kompetensi yang terintegrasi dengan Al-Islam Kemuhammadiyahan serta menumbuhkan jiwa entrepreneur.",
+          "Melaksanakan riset dan publikasi ilmiah untuk mengembangkan program pembelajaran matematika yang inovatif.",
+          "Menjalin kerja sama kemitraan yang saling menguatkan dalam rangka pengabdian kepada masyarakat dan implementasi hasil riset."
+        ]
+      },
+      "biaya_kuliah": {
+        "uang_semester": "Rp. 3.300.000",
+        "uang_pembangunan": "Rp. 4.550.000"
+      }
+    },
+    "Pendidikan Guru Sekolah Dasar (PGSD)": {
+      "informasi": "Prodi PGSD S-1 FKIP Unismuh Makassar mulai dibuka pada tahun akademik 2006/2007 berdasarkan SK Dikti No. 3338/D/T/2006 tanggal 1 September 2006. Awalnya diselenggarakan jenjang D2 sejak 1992 melalui Proyek Pemerintah, lalu mandiri tahun 2011 berdasarkan SK Depdiknas Dirjen Dikti No. 2347/D/T/2001.",
+      "fasilitas": [
+        "Ruang perkuliahan",
+        "Laboratorium IPA",
+        "Laboratorium Komputer",
+        "Laboratorium Microteaching"
+      ],
+      "akreditasi": {
+        "akreditasi": "A",
+        "sk": "4170/SK/BAN-PT/Akred/S/X/2019",
+        "berlaku_hingga": ""
+      },
+      "visi_misi": {
+        "visi": "Mewujudkan Program Studi Pendidikan Guru Sekolah Dasar di Kawasan Timur Indonesia yang berkualitas, profesional, unggul, dan Islami pada tahun 2024 dalam menyelenggarakan pendidikan guru sekolah dasar untuk menghasilkan lulusan yang memiliki kompetensi setara dengan Kualifikasi Level Enam KKNI.",
+        "misi": [
+          "Meningkatkan pembinaan iman dan taqwa di kalangan civitas akademika maupun umat melalui suasana akademik yang Islami.",
+          "Menyelenggarakan pendidikan dan pengajaran dasar yang profesional, berkualitas, akuntabel, dan berkelanjutan, selaras dengan pembinaan iman dan taqwa.",
+          "Melibatkan prodi dalam peningkatan mutu pendidikan dasar melalui kegiatan penelitian.",
+          "Menguatkan pengabdian kepada masyarakat melalui kemitraan dengan lembaga pendidikan, instansi terkait, dan stakeholder lainnya."
+        ]
+      },
+      "biaya_kuliah": {
+        "uang_semester": "Rp. 3.900.000",
+        "uang_pembangunan": "Rp. 6.000.000"
+      }
+    },
+    "Teknologi Pendidikan": {
+      "informasi": "Program Studi Teknologi Pendidikan FKIP Unismuh Makassar mengedepankan pengembangan literasi sosial dan penyesuaian realitas pendidikan berbasis teknologi.",
+      "fasilitas": [
+        "Laboratorium Microteaching",
+        "Laboratorium Komputer",
+        "Laboratorium Sinematografi",
+        "Laboratorium Fotografi",
+        "Laboratorium Multimedia",
+        "Laboratorium Podcast",
+        "Laboratorium Desain Grafis"
+      ],
+      "akreditasi": {
+        "akreditasi": "Unggul",
+        "sk": "2024 ",
+        "berlaku_hingga": "2029"
+      },
+      "visi_misi": {
+        "visi": "Mengembangkan Pembelajaran Inovatif Guna Menghasilkan Teknolog Pendidikan yang Unggul dan Berkarekter Islami",
+        "misi": []
+      },
+      "biaya_kuliah": {
+        "uang_semester": "Rp. 3.300.000",
+        "uang_pembangunan": "Rp. 4.550.000"
+      }
+    },
+    "Pendidikan Biologi": {
+      "informasi": "Program Studi Pendidikan Biologi FKIP Unismuh Makassar diselenggarakan berdasarkan Keputusan Menteri Riset, Teknologi dan Pendidikan Tinggi Nomor 41/M/Kp/III/2015. Prodi ini dikelola oleh sebelas dosen tetap yayasan, satu staf SIMAK, dan satu karyawan staf, dengan total mahasiswa sebanyak 240.",
+      "fasilitas": [],
+      "akreditasi": {
+        "akreditasi": "Unggul",
+        "sk": "595/SK/LAMDIK/Ak/S/VI/2024",
+        "berlaku_hingga": "9 Juli 2029"
+      },
+      "visi_misi": {
+        "visi": "Menyelenggarakan Pendidikan Biologi yang Inovatif, Berwawasan Lingkungan, dan Terampil dalam Bidang Ecopreneur yang Berlandaskan Nilai-Nilai Keislaman.",
+        "misi": [
+          "Menyelenggarakan pendidikan dan pengajaran yang berbasis pada perkembangan ilmu pengetahuan dan keislaman.",
+          "Melaksanakan penelitian di bidang biologi dan kependidikan biologi yang mendukung inovasi pembelajaran.",
+          "Menyelenggarakan pengabdian kepada masyarakat sebagai tindak lanjut hasil penelitian.",
+          "Membina Al-Islam dan Kemuhammadiyahan secara khusus dan terintegrasi dalam konten bidang."
+        ]
+      },
+      "biaya_kuliah": {
+        "uang_semester": "Rp. 3.050.000",
+        "uang_pembangunan": "Rp. 4.550.000"
+      }
+    },
+    "Pendidikan Pancasila dan Kewarganegaraan": {
+      "informasi": "Program Studi PPKn FKIP Unismuh Makassar dibuka berdasarkan SK Mendikbud No. 174/E/O/2014 tentang izin penyelenggaraan. Prodi ini mengembangkan wawasan keilmuan Pancasila, kewarganegaraan, politik, hukum, serta komitmen moral dan religiusitas, dengan tujuan mencetak guru yang ‘smart and good citizens’.",
+      "fasilitas": [],
+      "akreditasi": {
+        "akreditasi": "Unggul",
+        "sk": "334/SK/LAMDIK/Ak/S/III/2024",
+        "berlaku_hingga": ""
+      },
+      "visi_misi": {
+        "visi": "Menjadi Program Studi yang kompetitif dalam menghasilkan tenaga pendidik dan ahli di bidang Pendidikan Pancasila dan Kewarganegaraan yang memiliki sikap cinta tanah air dan moderasi berbangsa dan beragama yang berakhlak Islami.",
+        "misi": [
+          "Menyelenggarakan proses pembelajaran Pendidikan Pancasila & Kewarganegaraan yang inovatif dan terintegrasi dengan nilai-nilai Islam.",
+          "Mengembangkan penelitian yang berbasis pada kearifan lokal.",
+          "Meningkatkan pengabdian pada masyarakat dalam rangka penegakan hak dan kewajiban warga negara berdasarkan konstitusi.",
+          "Membangun manajemen program studi yang sehat melalui penguatan tata kelola transparan, kerjasama, dan pencitraan publik."
+        ]
+      },
+      "biaya_kuliah": {
+        "uang_semester": "Rp. 3.050.000",
+        "uang_pembangunan": "Rp. 4.550.000"
+      }
+    },
+    "Pendidikan Guru Pendidikan Anak Usia Dini (PG-PAUD)": {
+      "informasi": "Prodi PG-PAUD FKIP Unismuh Makassar memadukan teknologi informasi dan komunikasi dalam pembelajaran yang inovatif sekaligus berlandaskan nilai-nilai Islam. Diketahui sebagai prodi pertama di FKIP Unismuh yang meluluskan mahasiswa tanpa skripsi berkat publikasi ilmiah di jurnal terakreditasi nasional Sinta 2.",
+      "fasilitas": [],
+      "akreditasi": {
+        "akreditasi": "Baik",
+        "sk": "9944/SK/BAN-PT/Ak.KP/S/I/2023",
+        "berlaku_hingga": ""
+      },
+      "visi_misi": {
+        "visi": "Menjadi garda terdepan dalam menghasilkan tenaga profesional PG-PAUD pada tahun 2024 yang menggabungkan keahlian teknologi dan nilai Islami.",
+        "misi": [
+          "Menyelenggarakan pendidikan sesuai kompetensi PAUD berbasis keilmuan dan keislaman.",
+          "Melaksanakan penelitian untuk pengembangan keilmuan dan pengajaran PAUD.",
+          "Mengembangkan pengabdian kepada masyarakat guna meningkatkan profesionalisme tenaga pendidik.",
+          "Mengembangkan model pembelajaran kreatif dan inovatif berbasis TI, dengan lingkungan akademik Islami, termasuk kerjasama institusional."
+        ]
+      },
+      "prestasi": "Prodi PG-PAUD tercatat sebagai prodi pertama di FKIP Unismuh yang meluluskan mahasiswa tanpa skripsi karena publikasi di jurnal Sinta 2." ,
+      "biaya_kuliah": {
+        "uang_semester": "Rp. 3.050.000",
+        "uang_pembangunan": "Rp. 4.550.000"
+      }
+    },
+    "Pendidikan Sosiologi": {
+      "informasi": "Program Studi Pendidikan Sosiologi FKIP Unismuh Makassar mengembangkan kurikulum yang berlandaskan falsafah perenialisme, esensialisme, progressivisme, dan rekonstruksionisme—dengan tujuan menyiapkan tenaga pendidik, peneliti sosial, dan pengabdi masyarakat yang berkompetensi serta berakhlak mulia.",
+      "fasilitas": [],
+      "akreditasi": {
+        "akreditasi": "Unggul",
+        "sk": "864/SK/LAMDIK/Ak/S/VIII/2024",
+        "berlaku_hingga": "27 Agustus 2029"
+      },
+      "visi_misi": {
+        "visi": "Menjadi Program Studi Pendidikan Sosiologi yang unggul dan berkarakter Islami dalam bidang pendidikan, penelitian, dan pengabdian kepada masyarakat berbasis kearifan lokal, nasional, dan berdaya saing global pada tahun 2028.",
+        "misi": [
+          "Menyiapkan tenaga pendidik profesional di bidang Pendidikan Sosiologi.",
+          "Menyelenggarakan pembelajaran berbasis kearifan lokal dan karakter Islami.",
+          "Melaksanakan penelitian pendidikan dan sosiologi yang inovatif.",
+          "Menguatkan pengabdian kepada masyarakat melalui kemitraan dengan lembaga terkait.",
+          "Menghasilkan produk pembelajaran dan publikasi ilmiah dalam bidang Pendidikan Sosiologi."
+        ]
+      },
+      "biaya_kuliah": {
+        "uang_semester": "Rp. 3.300.000",
+        "uang_pembangunan": "Rp. 4.550.000"
+      }
+    },
+    "Pendidikan Fisika": {
+      "informasi": "Program Studi Pendidikan Fisika FKIP Unismuh Makassar unggul dalam integrasi teknologi digital dan inovasi pembelajaran fisika.",
+      "fasilitas": [],
+      "akreditasi": {
+        "akreditasi": "Unggul",
+        "sk": "203/SK/LAMDIK/Ak/S/II/2024",
+        "berlaku_hingga": ""
+      },
+      "visi_misi": {
+        "visi": "Menjadi prodi unggul dalam inovasi pembelajaran fisika berkarakter Islami.",
+        "misi": []
+      },
+      "biaya_kuliah": {
+        "uang_semester": "Rp. 3.300.000",
+        "uang_pembangunan": "Rp. 4.550.000"
+      }
+    },
+    "Pendidikan Seni Rupa": {
+      "informasi": "Program Studi S1 Pendidikan Seni Rupa FKIP Unismuh Makassar didirikan tahun 2008 berdasarkan izin Dirjen Dikti No. 280/D/T/2008 pada 16 Januari 2008, dengan SK operasional pada Agustus 2008. Prodi ini bertujuan menghasilkan guru seni rupa dengan wawasan keilmuan seni rupa, praktik, evaluasi, kritik, serta kepribadian religius dan berintegritas moral.",
+      "fasilitas": [
+        "Studio Gambar/Lukis",
+        "Studio Fotografi",
+        "Studio Patung",
+        "Studio Kriya (Logam dan Keramik)",
+        "Seni Rupa Pertunjukan",
+        "Perpustakaan Prodi",
+        "Galeri Seni Rupa (Galeri Unismuh, Rumah Seni Kasumba, Etika Studio Arts Space, Rumata Arts Space)"
+      ],
+      "akreditasi": {
+        "akreditasi": "Unggul",
+        "sk": "717/SK/LAMDIK/Ak/S/XI/2022",
+        "berlaku_hingga": "20 Februari 2028"
+      },
+      "visi_misi": {
+        "visi": "Menghasilkan tenaga pendidik seni rupa kreatif, inovatif, dinamis, dan mandiri yang berkarakter Islami serta berjiwa entrepreneurship.",
+        "misi": [
+          "Penyelenggaraan pendidikan seni rupa yang berkarakter Islami.",
+          "Pengajaran yang mengembangkan teori-teori baru dalam merespon seni rupa mutakhir dan mendukung jiwa entrepreneur.",
+          "Pelaksanaan penelitian, pengabdian, dan publikasi yang dinamis, inovatif, dan berkelanjutan.",
+          "Kemitraan dengan lembaga pendidikan dan non-pendidikan untuk mendukung mutu lulusan.",
+          "Menghasilkan sarjana pendidikan yang humanis dan adaptif."
+        ]
+      },
+      "biaya_kuliah": {
+        "uang_semester": "Rp. 3.300.000",
+        "uang_pembangunan": "Rp. 4.550.000"
+      }
+    }
+  }
+}

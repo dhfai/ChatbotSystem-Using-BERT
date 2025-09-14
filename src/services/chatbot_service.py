@@ -47,15 +47,11 @@ class ChatbotService:
 
     def _build_vector_index(self):
         """
-        Membangun vector index dari data
+        Membangun vector index dari data JSON fakultas
         """
-        # Process data dari CSV dan Excel
-        print("Processing data files...")
-        self.data_processor.process_biaya_kuliah_data()
-        self.data_processor.process_fakultas_data()
-
-        # Tambahkan dokumen umum tentang universitas
-        self._add_general_university_info()
+        # Process data dari JSON files
+        print("Processing JSON faculty data...")
+        self.data_processor.process_fakultas_json_data()
 
         # Dapatkan semua dokumen
         documents, metadata = self.data_processor.get_all_documents()
@@ -74,13 +70,13 @@ class ChatbotService:
 
     def _add_general_university_info(self):
         """
-        TIDAK menambahkan data apapun yang tidak ada di CSV/Excel asli
-        Hanya menggunakan data dari file yang disediakan user
+        Method ini tidak digunakan lagi karena sekarang menggunakan data JSON
+        yang sudah lengkap dengan informasi fakultas
         """
-        # HAPUS semua data tambahan yang tidak ada di CSV/Excel
-        # Sistem hanya boleh menggunakan data dari:
-        # 1. data_biaya_kuliah.csv
-        # 2. data_fakultas.xlsx
+        # Sistem sekarang menggunakan data dari:
+        # 1. data_feb.json
+        # 2. data_fkip.json
+        # 3. data_ft.json
         pass  # Tidak menambahkan data apapun
 
     def chat(self, session_id: str, user_message: str) -> Dict:

@@ -1,162 +1,182 @@
 import pandas as pd
 import json
+import os
 from typing import List, Dict
 from src.config import Config
 
 class DataProcessor:
     """
-    Processor untuk mengolah data CSV dan Excel menjadi dokumen untuk indexing
+    Processor untuk mengolah data JSON fakultas menjadi dokumen untuk indexing
     """
 
     def __init__(self):
         self.documents = []
         self.metadata = []
 
-    def process_biaya_kuliah_data(self, file_path: str = None) -> List[str]:
+    def process_fakultas_json_data(self, data_folder: str = "data") -> List[str]:
         """
-        Memproses data biaya kuliah dari CSV dengan format:
-        NO,FAKULTAS DAN PROGRAM STUDI,AKREDITASI,UANG KULIAH,UANG PEMBANGUNAN
-        HANYA menggunakan data mentah tanpa modifikasi
+        Memproses data fakultas dari file JSON baru
         """
-        file_path = file_path or Config.DATA_BIAYA_PATH
+        json_files = ['data_feb.json', 'data_fkip.json', 'data_ft.json']
+        documents = []
 
+        for json_file in json_files:
+            file_path = os.path.join(data_folder, json_file)
+            if os.path.exists(file_path):
+                documents_from_file = self._process_single_fakultas_json(file_path)
+                documents.extend(documents_from_file)
+
+        self.documents.extend(documents)
+        print(f"Processed {len(documents)} documents from JSON files")
+        return documents
+
+    def _process_single_fakultas_json(self, file_path: str) -> List[str]:
+        """
+        Memproses satu file JSON fakultas
+        """
         try:
-            df = pd.read_csv(file_path)
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+
             documents = []
+            fakultas_name = data.get('fakultas', '')
 
-            for idx, row in df.iterrows():
-                # Buat dokumen text yang informatif dari data biaya kuliah TANPA modifikasi
-                program_studi = str(row['FAKULTAS DAN PROGRAM STUDI']).strip()
-                akreditasi = str(row['AKREDITASI']).strip()
-                uang_kuliah = str(row['UANG KULIAH']).strip()
-                uang_pembangunan = str(row['UANG PEMBANGUNAN']).strip()
+            # 1. Informasi Dasar Fakultas
+            if fakultas_name:
+                basic_info = f"Fakultas {fakultas_name}"
 
-                # Buat dokumen dengan format standar TANPA menambah kata kunci multimedia
-                doc_text = f"Program Studi {program_studi}"
+                # Tambahkan sejarah
+                if 'sejarah' in data and data['sejarah']:
+                    basic_info += f". Sejarah: {data['sejarah']}"
 
-                if akreditasi and akreditasi != 'nan' and akreditasi != '':
-                    doc_text += f" dengan akreditasi {akreditasi}"
-                if uang_kuliah and uang_kuliah != 'nan' and uang_kuliah != '–' and uang_kuliah != '':
-                    doc_text += f" memiliki uang kuliah per semester {uang_kuliah}"
-                if uang_pembangunan and uang_pembangunan != 'nan' and uang_pembangunan != '–' and uang_pembangunan != '':
-                    doc_text += f" dan uang pembangunan {uang_pembangunan}"
+                # Tambahkan visi
+                if 'visi' in data and data['visi']:
+                    basic_info += f". Visi: {data['visi']}"
 
-                documents.append(doc_text)
+                # Tambahkan misi
+                if 'misi' in data and data['misi']:
+                    if isinstance(data['misi'], list):
+                        misi_text = "; ".join(data['misi'])
+                        basic_info += f". Misi: {misi_text}"
 
-                # Tambahkan metadata
-                metadata = {
-                    "source": "biaya_kuliah",
-                    "row_id": idx + 1,
-                    "type": "financial_info",
-                    "program_studi": program_studi,
-                    "akreditasi": akreditasi,
-                    "uang_kuliah": uang_kuliah,
-                    "uang_pembangunan": uang_pembangunan
-                }
-                self.metadata.append(metadata)
+                documents.append(basic_info)
+                self._add_metadata("basic_info", fakultas_name, file_path, len(documents) - 1)
 
-            self.documents.extend(documents)
-            print(f"Processed {len(documents)} biaya kuliah documents")
+            # 2. Informasi Pimpinan
+            if 'pimpinan' in data and data['pimpinan']:
+                pimpinan_doc = f"Pimpinan {fakultas_name}:"
+
+                if 'dekan' in data['pimpinan'] and data['pimpinan']['dekan']:
+                    pimpinan_doc += f" Dekan: {data['pimpinan']['dekan']}"
+
+                if 'wakil_dekan' in data['pimpinan'] and data['pimpinan']['wakil_dekan']:
+                    wakil_dekan = data['pimpinan']['wakil_dekan']
+                    for posisi, nama in wakil_dekan.items():
+                        if nama:
+                            pimpinan_doc += f". Wakil Dekan {posisi}: {nama}"
+
+                documents.append(pimpinan_doc)
+                self._add_metadata("leadership", fakultas_name, file_path, len(documents) - 1)
+
+            # 3. Program Studi
+            if 'program_studi' in data and data['program_studi']:
+                for prodi_name, prodi_info in data['program_studi'].items():
+                    prodi_doc = f"Program Studi {prodi_name} di {fakultas_name}"
+
+                    # Informasi program studi
+                    if isinstance(prodi_info, dict) and 'informasi' in prodi_info:
+                        prodi_doc += f". {prodi_info['informasi']}"
+
+                    # Akreditasi
+                    if isinstance(prodi_info, dict) and 'akreditasi' in prodi_info:
+                        akred = prodi_info['akreditasi']
+                        if isinstance(akred, dict) and 'akreditasi' in akred:
+                            prodi_doc += f" Akreditasi: {akred['akreditasi']}"
+                            if 'sk' in akred and akred['sk']:
+                                prodi_doc += f", SK: {akred['sk']}"
+
+                    # Fasilitas
+                    if isinstance(prodi_info, dict) and 'fasilitas' in prodi_info:
+                        fasilitas = prodi_info['fasilitas']
+                        if isinstance(fasilitas, list) and fasilitas:
+                            clean_fasilitas = [f for f in fasilitas if f and f.strip()]
+                            if clean_fasilitas:
+                                prodi_doc += f" Fasilitas: {'; '.join(clean_fasilitas)}"
+
+                    # Visi Misi Program Studi
+                    if isinstance(prodi_info, dict) and 'visi_misi' in prodi_info:
+                        visi_misi = prodi_info['visi_misi']
+                        if isinstance(visi_misi, dict):
+                            if 'visi' in visi_misi and visi_misi['visi']:
+                                prodi_doc += f" Visi: {visi_misi['visi']}"
+                            if 'misi' in visi_misi and visi_misi['misi']:
+                                if isinstance(visi_misi['misi'], list):
+                                    misi_prodi = "; ".join(visi_misi['misi'])
+                                    prodi_doc += f" Misi: {misi_prodi}"
+
+                    documents.append(prodi_doc)
+                    self._add_metadata("program_studi", fakultas_name, file_path, len(documents) - 1, prodi_name)
+
+            # 4. Organisasi Mahasiswa
+            if 'organisasi_mahasiswa' in data and data['organisasi_mahasiswa']:
+                org_data = data['organisasi_mahasiswa']
+                if 'hmj' in org_data and org_data['hmj']:
+                    org_doc = f"Organisasi mahasiswa di {fakultas_name}: "
+                    if isinstance(org_data['hmj'], list):
+                        org_doc += ", ".join(org_data['hmj'])
+
+                    if 'fungsi' in org_data and org_data['fungsi']:
+                        org_doc += f". Fungsi: {org_data['fungsi']}"
+
+                    documents.append(org_doc)
+                    self._add_metadata("organisasi", fakultas_name, file_path, len(documents) - 1)
+
+            # 5. Kerjasama Internasional
+            if 'kerjasama_internasional' in data and data['kerjasama_internasional']:
+                kerjasama = data['kerjasama_internasional']
+                if kerjasama and any(kerjasama.values()):  # Ada data kerjasama
+                    kerjasama_doc = f"Kerjasama internasional {fakultas_name}:"
+
+                    if 'mitra' in kerjasama and kerjasama['mitra']:
+                        if isinstance(kerjasama['mitra'], list):
+                            kerjasama_doc += f" Mitra: {', '.join(kerjasama['mitra'])}"
+
+                    if 'kegiatan' in kerjasama and kerjasama['kegiatan']:
+                        kerjasama_doc += f". Kegiatan: {kerjasama['kegiatan']}"
+
+                    if 'program' in kerjasama and kerjasama['program']:
+                        if isinstance(kerjasama['program'], list) and kerjasama['program']:
+                            kerjasama_doc += f". Program: {', '.join(kerjasama['program'])}"
+
+                    documents.append(kerjasama_doc)
+                    self._add_metadata("kerjasama", fakultas_name, file_path, len(documents) - 1)
+
+            # 6. Pendidikan Berbasis Islam
+            if 'pendidikan_berbasis_islam' in data and data['pendidikan_berbasis_islam']:
+                islam_doc = f"Pendidikan berbasis Islam di {fakultas_name}: {data['pendidikan_berbasis_islam']}"
+                documents.append(islam_doc)
+                self._add_metadata("pendidikan_islam", fakultas_name, file_path, len(documents) - 1)
+
             return documents
 
         except Exception as e:
-            print(f"Error processing biaya kuliah data: {e}")
+            print(f"Error processing {file_path}: {e}")
             return []
 
-    def process_fakultas_data(self, file_path: str = None) -> List[str]:
+    def _add_metadata(self, doc_type: str, fakultas: str, source_file: str, doc_index: int, extra_info: str = ""):
         """
-        Memproses data fakultas dari CSV yang sudah diperbaiki (datafux_fixed.csv)
-        Menggantikan proses Excel dengan CSV yang lebih konsisten
+        Menambahkan metadata untuk dokumen
         """
-        # Gunakan file CSV yang sudah diperbaiki sebagai default
-        if file_path is None:
-            file_path = "data/datafux_fixed.csv"
+        metadata = {
+            "source": os.path.basename(source_file),
+            "type": doc_type,
+            "fakultas": fakultas,
+            "doc_index": doc_index
+        }
+        if extra_info:
+            metadata["extra_info"] = extra_info
 
-        try:
-            df = pd.read_csv(file_path)
-            documents = []
-
-            for idx, row in df.iterrows():
-                fakultas_id = str(row['id']).strip()
-                fakultas_name = str(row['fakultas']).strip()
-                informasi = str(row['informasi']).strip()
-
-                # Format dokumen dengan struktur yang jelas
-                doc_text = f"{fakultas_name}: {informasi}"
-
-                if doc_text and doc_text.strip():
-                    documents.append(doc_text)
-
-                    metadata = {
-                        "source": "fakultas_csv",
-                        "row_id": idx,
-                        "type": "academic_info",
-                        "fakultas_id": fakultas_id,
-                        "fakultas_name": fakultas_name
-                    }
-                    self.metadata.append(metadata)
-
-            self.documents.extend(documents)
-            print(f"Processed {len(documents)} fakultas documents from CSV")
-            return documents
-
-        except Exception as e:
-            print(f"Error processing fakultas CSV data: {e}")
-            return self._extract_fakultas_from_biaya_data()
-
-    def _extract_fakultas_from_biaya_data(self) -> List[str]:
-        """
-        Extract informasi fakultas dari data program studi di biaya kuliah
-        """
-        try:
-            df = pd.read_csv(Config.DATA_BIAYA_PATH)
-            fakultas_info = {}
-            documents = []
-
-            for idx, row in df.iterrows():
-                program_studi = str(row['FAKULTAS DAN PROGRAM STUDI']).strip()
-
-                if 'Pendidikan' in program_studi and 'Dokter' not in program_studi:
-                    fakultas = "Fakultas Keguruan dan Ilmu Pendidikan"
-                elif 'Dokter' in program_studi or 'Farmasi' in program_studi or 'Kebidanan' in program_studi or 'Keperawatan' in program_studi:
-                    fakultas = "Fakultas Kedokteran dan Ilmu Kesehatan"
-                elif 'Ekonomi' in program_studi or 'Manajemen' in program_studi or 'Akuntansi' in program_studi:
-                    fakultas = "Fakultas Ekonomi dan Bisnis"
-                elif 'Teknik' in program_studi or 'Informatika' in program_studi or 'Arsitektur' in program_studi:
-                    fakultas = "Fakultas Teknik"
-                elif 'Agama Islam' in program_studi or 'Syariah' in program_studi:
-                    fakultas = "Fakultas Agama Islam"
-                elif 'Hukum' in program_studi:
-                    fakultas = "Fakultas Hukum"
-                else:
-                    fakultas = "Program Studi Lainnya"
-
-                if fakultas not in fakultas_info:
-                    fakultas_info[fakultas] = []
-                fakultas_info[fakultas].append(program_studi)
-
-            for fakultas, programs in fakultas_info.items():
-                doc_text = f"{fakultas} memiliki program studi: {', '.join(programs[:5])}"
-                if len(programs) > 5:
-                    doc_text += f" dan {len(programs) - 5} program studi lainnya"
-
-                documents.append(doc_text)
-
-                metadata = {
-                    "source": "fakultas_extracted",
-                    "type": "academic_info",
-                    "fakultas": fakultas,
-                    "program_count": len(programs)
-                }
-                self.metadata.append(metadata)
-
-            self.documents.extend(documents)
-            print(f"Extracted {len(documents)} fakultas documents from biaya kuliah data")
-            return documents
-
-        except Exception as e:
-            print(f"Error extracting fakultas data: {e}")
-            return []
+        self.metadata.append(metadata)
 
     def add_custom_documents(self, custom_docs: List[str], doc_type: str = "custom"):
         """
