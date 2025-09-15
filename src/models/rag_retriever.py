@@ -120,23 +120,42 @@ class RAGRetriever:
         # BERT-powered intent analysis untuk adaptive retrieval
         intent_analysis = self.bert_embedder.encode_conversational_intent(query)
 
-        # Enhanced keyword matching for better retrieval
+        # Enhanced keyword matching for better retrieval with TKJ prioritization
         query_lower = query.lower()
         relevant_keywords = {
             'biaya': ['biaya', 'kuliah', 'uang', 'pembangunan', 'semester'],
             'jurusan': ['program studi', 'jurusan', 'fakultas', 'prodi'],
             'cocok': ['sesuai', 'cocok', 'tepat', 'relevan', 'minat'],
             'rekomendasi': ['rekomendasi', 'saran', 'pilihan', 'alternatif'],
-            'tik': ['informatika', 'teknik elektro', 'teknologi pendidikan'],
-            'smk': ['informatika', 'teknik elektro', 'teknologi pendidikan'],
-            'komputer': ['informatika', 'teknik elektro'],
-            'teknologi': ['informatika', 'teknik elektro', 'teknologi pendidikan'],
-            'informasi': ['informatika', 'teknologi pendidikan'],
+            'tkj': ['informatika', 'jaringan komputer', 'teknologi informasi', 'pemrograman'],
+            'tik': ['informatika', 'teknologi informasi', 'teknologi pendidikan'],
+            'rpl': ['informatika', 'pengembangan perangkat lunak', 'kecerdasan buatan'],
+            'multimedia': ['informatika', 'desain komunikasi visual', 'teknologi pendidikan'],
+            'komputer': ['informatika', 'jaringan komputer', 'teknik elektro'],
+            'jaringan': ['informatika', 'jaringan komputer', 'teknologi informasi'],
+            'teknologi': ['informatika', 'teknologi informasi', 'teknologi pendidikan', 'teknik elektro'],
+            'informasi': ['informatika', 'teknologi informasi', 'teknologi pendidikan'],
+            'pemrograman': ['informatika', 'pengembangan perangkat lunak'],
             'elektro': ['teknik elektro'],
             'teknik': ['teknik elektro', 'teknik pengairan', 'arsitektur'],
             'ekonomi': ['ekonomi', 'manajemen', 'akuntansi'],
             'bisnis': ['manajemen', 'ekonomi', 'akuntansi'],
-            'pendidikan': ['pendidikan', 'guru', 'pgsd']
+            'trading': ['manajemen', 'ekonomi', 'akuntansi'],
+            'pengajar': ['pendidikan', 'guru', 'pgsd'],
+            'pendidikan': ['pendidikan', 'guru', 'pgsd', 'teknologi pendidikan'],
+            'teknologi_pendidikan': ['teknologi pendidikan']
+        }
+
+        # TKJ-specific boost mapping with higher priority for Informatika
+        tkj_boost_mapping = {
+            'informatika': 0.25,  # Highest boost for TKJ graduates
+            'jaringan komputer': 0.25,
+            'teknologi informasi': 0.25,
+            'pemrograman': 0.25,
+            'pengembangan perangkat lunak': 0.25,
+            'teknik elektro': 0.15,  # Lower boost compared to Informatika
+            'teknologi pendidikan': 0.10,
+            'kecerdasan buatan': 0.20
         }
 
         # Adaptive retrieval strategy berdasarkan BERT intent analysis
@@ -173,16 +192,35 @@ class RAGRetriever:
                 }
                 results.append(result)
 
-        # Enhanced keyword-based boost for better matching
+        # Enhanced keyword-based boost for better matching with TKJ prioritization
         for keyword, related_terms in relevant_keywords.items():
             if keyword in query_lower:
                 for j, result in enumerate(results):
                     doc_lower = result["document"].lower()
                     for term in related_terms:
                         if term in doc_lower:
-                            # Boost score for keyword matches
-                            results[j]["score"] = min(1.0, result["score"] + 0.1)
-                            results[j]["retrieval_method"] = "BERT_semantic_similarity_with_keyword_boost"
+                            # Base boost score
+                            base_boost = 0.1
+
+                            # Special boost for direct "teknologi pendidikan" query
+                            if 'teknologi pendidikan' in query_lower and 'teknologi pendidikan' in doc_lower:
+                                results[j]["score"] = min(1.0, result["score"] + 0.30)
+                                results[j]["retrieval_method"] = "BERT_semantic_similarity_with_direct_match_boost"
+                                continue
+
+                            # Apply TKJ-specific boost if query contains TKJ-related terms
+                            if any(tkj_term in query_lower for tkj_term in ['tkj', 'smk', 'komputer', 'jaringan', 'teknologi informasi', 'lulusan smk']):
+                                if term in tkj_boost_mapping:
+                                    boost_score = tkj_boost_mapping[term]
+                                    results[j]["score"] = min(1.0, result["score"] + boost_score)
+                                    results[j]["retrieval_method"] = f"BERT_semantic_similarity_with_TKJ_boost_{boost_score}"
+                                else:
+                                    results[j]["score"] = min(1.0, result["score"] + base_boost)
+                                    results[j]["retrieval_method"] = "BERT_semantic_similarity_with_keyword_boost"
+                            else:
+                                # Normal keyword boost for non-TKJ queries
+                                results[j]["score"] = min(1.0, result["score"] + base_boost)
+                                results[j]["retrieval_method"] = "BERT_semantic_similarity_with_keyword_boost"
 
         # Sort by score after keyword boosting
         results.sort(key=lambda x: x["score"], reverse=True)

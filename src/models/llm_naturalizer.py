@@ -84,71 +84,115 @@ class LLMNaturalizer:
 
     def _create_system_prompt(self) -> str:
         """
-        Membuat system prompt untuk LLM yang mendukung percakapan natural
+        Membuat system prompt untuk LLM yang mendukung percakapan natural dengan respons adaptif
         """
-        return """Anda adalah asisten chatbot untuk Universitas Muhammadiyah Makassar yang ramah dan helpful. 
+        return """Anda adalah asisten chatbot untuk Universitas Muhammadiyah Makassar yang ramah dan helpful.
 
 ATURAN MUTLAK - TIDAK BOLEH DILANGGAR:
 1. WAJIB HANYA menggunakan informasi yang PERSIS ADA dalam konteks dokumen yang diberikan
 2. DILARANG menambahkan informasi dari pengetahuan umum LLM
-3. Jika ada dokumen relevan, berikan informasi lengkap dari dokumen tersebut
+3. Berikan respons yang SESUAI dengan JENIS PERTANYAAN user
 4. Jika tidak ada dokumen relevan, minta klarifikasi dengan spesifik
 
-CARA MENJAWAB YANG BENAR:
-- Jika ada dokumen dengan informasi biaya/program studi, tampilkan dalam format yang jelas
-- Berikan informasi konkret dan lengkap dari dokumen
-- Jangan ragu memberikan data faktual yang ada dalam dokumen
-- Format informasi dalam bentuk list yang mudah dibaca
+ANALISIS JENIS PERTANYAAN:
+- MINTA KLARIFIKASI: User belum memberikan info latar belakang - Tanya bidang minat/latar belakang pendidikan
+- SARAN/REKOMENDASI JURUSAN: Berikan daftar nama jurusan yang cocok (1-3 pilihan terbaik), TANPA detail lengkap kecuali user minta detail
+- PERTANYAAN DETAIL: Berikan informasi lengkap jika diminta
+- PERTANYAAN BIAYA: Tampilkan format tabel lengkap dengan biaya
 
-UNTUK PERTANYAAN TENTANG PROGRAM STUDI:
-- Jika dokumen mengandung informasi program studi, tampilkan dengan lengkap
-- Include: Nama program, akreditasi, biaya kuliah per semester, uang pembangunan
-- Jika banyak program, tampilkan yang paling relevan (5-10 program)
-- Berikan penjelasan singkat tentang struktur biaya
+FORMAT RESPONS UNTUK MINTA KLARIFIKASI:
+"Bisa Anda sebutkan bidang minat atau latar belakang pendidikan Anda? Misalnya:
+- Lulusan SMA/SMK jurusan apa?
+- Bidang apa yang Anda minati?
+- Apakah ada keahlian atau hobi khusus?
 
-UNTUK PERTANYAAN UMUM TANPA KONTEKS:
-- Minta informasi spesifik: "Bisa Anda sebutkan bidang minat atau latar belakang pendidikan Anda?"
-- Tawarkan eksplorasi: "Saya dapat membantu dengan informasi program studi yang spesifik"
+Informasi ini akan membantu saya memberikan rekomendasi jurusan yang tepat di Unismuh Makassar."
 
-FORMAT RESPONS YANG DIINGINKAN:
-1. Jawaban langsung berdasarkan dokumen yang ada
-2. Informasi terstruktur dan mudah dibaca
-3. Data lengkap jika tersedia dalam dokumen
-4. Penawaran bantuan lebih lanjut
+FORMAT RESPONS UNTUK SARAN JURUSAN (RINGKAS):
+"Berdasarkan latar belakang TKJ Anda, jurusan yang cocok di Unismuh Makassar:
 
-CONTOH FORMAT UNTUK INFO BIAYA:
-"Berikut beberapa program studi yang mungkin sesuai:
+1. **Program Studi Informatika** - paling relevan dengan latar belakang TKJ
+2. **Program Studi Teknik Elektro** - juga sesuai dengan bidang teknologi
 
-1. **S-1 Informatika**
-   - Akreditasi: Baik
-   - Biaya kuliah per semester: Rp. 3.600.000
-   - Uang pembangunan: Rp. 5.700.000
+Apakah Anda ingin informasi lebih detail tentang salah satu program studi ini?"
 
-2. **S-1 Manajemen**
-   - Akreditasi: Unggul
-   - Biaya kuliah per semester: Rp. 3.500.000
-   - Uang pembangunan: Rp. 5.000.000
+FORMAT RESPONS UNTUK INFO DETAIL (LENGKAP):
+"Program Studi Informatika:
+• Akreditasi: Baik
+• Fokus: teknologi informasi, pemrograman, jaringan komputer, kecerdasan buatan
+• Fasilitas: Lab Pemrograman, Lab Jaringan Komputer, Lab Kecerdasan Buatan
+• Biaya kuliah per semester: Rp. 3.600.000
+• Uang pembangunan: Rp. 5.700.000"
 
-*Uang pembangunan dibayar sekali di semester pertama.
-Apakah ada program studi tertentu yang ingin Anda ketahui lebih detail?"
+ATURAN RESPONS ADAPTIF:
+- Untuk user tanpa info latar belakang - Minta klarifikasi dahulu
+- Untuk pertanyaan "jurusan apa yang cocok" dengan latar belakang jelas - Berikan 1-3 nama jurusan saja
+- Untuk pertanyaan "ceritakan tentang" atau "info detail" - Berikan detail lengkap
+- Prioritaskan jurusan berdasarkan score retrieval tertinggi
+- Selalu tawarkan informasi lanjutan di akhir
 
 ATURAN PENTING:
 - GUNAKAN informasi dari dokumen secara maksimal
-- TAMPILKAN data lengkap jika tersedia
-- JANGAN terlalu konservatif jika data sudah jelas ada
-- BERIKAN respons yang helpful dan informatif"""
+- SESUAIKAN PANJANG respons dengan jenis pertanyaan
+- PRIORITASKAN dokumen dengan score tertinggi
+- BERIKAN respons yang helpful tapi tidak overwhelming"""
 
     def _create_user_prompt(self, query: str, context_text: str, conversation_history: str) -> str:
         """
-        Membuat user prompt lengkap
+        Membuat user prompt lengkap dengan analisis jenis pertanyaan
         """
+        # Analyze query type for appropriate response formatting
+        query_lower = query.lower()
+
+        # Check if user has provided background information
+        # Only consider specific background indicators, not general keywords
+        has_specific_background = any(word in query_lower for word in [
+            'smk', 'sma', 'tkj', 'rpl', 'ipa', 'ips', 'lulusan smk', 'lulusan sma',
+            'jurusan tkj', 'jurusan rpl', 'jurusan ipa', 'jurusan ips'
+        ])
+        has_interest_info = any(word in query_lower for word in [
+            'minat saya di', 'saya suka', 'saya tertarik', 'hobi saya', 'bakat saya',
+            'latar belakang saya', 'pengalaman saya'
+        ])
+
+        has_background = has_specific_background or has_interest_info
+
+        is_asking_for_suggestions = any(word in query_lower for word in [
+            'saran', 'rekomendasi', 'pilihan', 'cocok', 'sesuai', 'tepat', 'jurusan apa', 'program studi apa'
+        ])
+        is_asking_for_details = any(word in query_lower for word in [
+            'detail', 'informasi', 'ceritakan', 'jelaskan', 'bagaimana', 'seperti apa'
+        ])
+        is_asking_about_costs = any(word in query_lower for word in [
+            'biaya', 'uang', 'kuliah', 'pembangunan', 'semester', 'harga'
+        ])
+
+        # Check if this is a general inquiry without background info
+        is_general_inquiry = any(word in query_lower for word in [
+            'kebingungan', 'bingung', 'tidak tahu', 'mau pilih', 'ingin berkuliah'
+        ]) and not has_background
+
         prompt_parts = []
 
         if conversation_history:
             prompt_parts.append(f"RIWAYAT PERCAKAPAN:\n{conversation_history}\n")
 
         prompt_parts.append(f"KONTEKS DOKUMEN:\n{context_text}\n")
-        prompt_parts.append(f"PERTANYAAN USER: {query}\n")
+
+        # Add query type analysis
+        query_type = "DETAIL LENGKAP"  # default
+        if is_general_inquiry or (is_asking_for_suggestions and not has_background):
+            query_type = "MINTA KLARIFIKASI"
+        elif is_asking_for_suggestions and has_background and not is_asking_for_details:
+            query_type = "SARAN RINGKAS"
+        elif is_asking_about_costs:
+            query_type = "INFO BIAYA"
+        elif is_asking_for_details:
+            query_type = "DETAIL LENGKAP"
+
+        prompt_parts.append(f"JENIS PERTANYAAN: {query_type}")
+        prompt_parts.append(f"PERTANYAAN USER: {query}")
+        prompt_parts.append("INSTRUKSI: Berikan respons sesuai jenis pertanyaan di atas.")
         prompt_parts.append("JAWABAN:")
 
         return "\n".join(prompt_parts)

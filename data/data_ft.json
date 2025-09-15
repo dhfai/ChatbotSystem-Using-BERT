@@ -11,11 +11,12 @@
     "Menumbuhkan jiwa kewirausahaan di kalangan civitas akademika"
   ],
   "pimpinan": {
-    "dekan": "Dr. Ir. Hj. Nurnawaty S.T. M.T. IPM",
+    "dekan": "Ir. Muhammad Syafa'at S. Kuba S.T. M.T.",
     "wakil_dekan": {
-      "I": "Ir. Muhammad Syafa'at S. Kuba S.T. M.T.",
+      "I": "Dr. Ir. Ar. Hj. Irnawaty Idrus, S.T.,M.T., IPM., AIA",
       "II": "Dr. Ir. Andi Makbul Syamsuri S.T. M.T. IPM",
-      "III": "Dr. Abd. Rahman Bahtiar S.Ag. M.A."
+      "III": "Soemitro Emin Praja, S.T., M.Si.",
+      "IV": "Dr. Alamsyah, S.Pd.I.,M.H."
     }
   },
   "kerjasama_internasional": {
@@ -142,6 +143,10 @@
                 "Melaksanakan pengabdian kepada masyarakat melalui pemberdayaan dalam pemanfaatan teknologi informasi secara positif dan berwawasan Al Islam Kemuhammadiyahan.",
                 "Menjalin kemitraan secara berkelanjutan dengan lembaga pendidikan dan stakeholder terkait."
             ]
+        },
+        "biaya_kuliah": {
+            "uang_semester": "Rp. 3.600.000",
+            "uang_pembangunan": "Rp. 5.700.000"
         }
     },
     "Perencanaan Wilayah dan Kota": {
@@ -164,6 +169,10 @@
                 "Melaksanakan Penelitian dan pengabdian masyarakat pada bidang penataan infrastruktur wilayah berwawasan lingkungan.",
                 "Melaksanakan kerjasama kemitraan pada bidang akademik, penelitian dan pengabdian masyarakat."
             ]
+        },
+        "biaya_kuliah": {
+            "uang_semester": "Rp. 3.600.000",
+            "uang_pembangunan": "Rp. 5.700.000"
         }
     }
   }
