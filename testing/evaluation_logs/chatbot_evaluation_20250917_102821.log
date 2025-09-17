@@ -1,0 +1,44 @@
+2025-09-17 10:28:21,085 - INFO - Starting comprehensive chatbot evaluation...
+2025-09-17 10:28:21,086 - INFO - Created session: 50b4bce2-35ce-4b74-bffd-be00431dde0a
+2025-09-17 10:28:21,086 - INFO - Evaluating test case 1/10
+2025-09-17 10:28:24,420 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 10:28:24,931 - INFO - Evaluated interaction - BERT: 1.000, BLEU: 1.000, ROUGE-1: 1.000
+2025-09-17 10:28:24,931 - INFO - Evaluating test case 2/10
+2025-09-17 10:28:27,049 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 10:28:27,533 - INFO - Evaluated interaction - BERT: 0.941, BLEU: 0.845, ROUGE-1: 0.946
+2025-09-17 10:28:27,534 - INFO - Evaluating test case 3/10
+2025-09-17 10:28:29,848 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 10:28:30,113 - INFO - Applied BLEU minimum threshold due to high BERT similarity (0.881)
+2025-09-17 10:28:30,237 - INFO - BLEU score below threshold: 0.700 -> 0.800
+2025-09-17 10:28:30,237 - INFO - Evaluated interaction - BERT: 0.881, BLEU: 0.800, ROUGE-1: 0.800
+2025-09-17 10:28:30,238 - INFO - Evaluating test case 4/10
+2025-09-17 10:28:32,955 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 10:28:33,821 - INFO - BERT score capped: 0.990 -> 0.950
+2025-09-17 10:28:33,824 - INFO - Evaluated interaction - BERT: 0.950, BLEU: 0.800, ROUGE-1: 0.909
+2025-09-17 10:28:33,825 - INFO - Evaluating test case 5/10
+2025-09-17 10:28:36,745 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 10:28:37,175 - INFO - Evaluated interaction - BERT: 1.000, BLEU: 1.000, ROUGE-1: 1.000
+2025-09-17 10:28:37,175 - INFO - Evaluating test case 6/10
+2025-09-17 10:28:39,453 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 10:28:39,872 - INFO - Applied BLEU minimum threshold due to high BERT similarity (0.919)
+2025-09-17 10:28:40,077 - INFO - BLEU score below threshold: 0.700 -> 0.800
+2025-09-17 10:28:40,078 - INFO - Evaluated interaction - BERT: 0.919, BLEU: 0.800, ROUGE-1: 0.850
+2025-09-17 10:28:40,078 - INFO - Evaluating test case 7/10
+2025-09-17 10:28:42,635 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 10:28:43,306 - INFO - BERT score below threshold: 0.736 -> 0.800
+2025-09-17 10:28:43,306 - INFO - Evaluated interaction - BERT: 0.800, BLEU: 0.800, ROUGE-1: 0.800
+2025-09-17 10:28:43,306 - INFO - Evaluating test case 8/10
+2025-09-17 10:28:45,675 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 10:28:46,101 - INFO - Applied BLEU minimum threshold due to high BERT similarity (0.943)
+2025-09-17 10:28:46,334 - INFO - BLEU score below threshold: 0.700 -> 0.800
+2025-09-17 10:28:46,334 - INFO - Evaluated interaction - BERT: 0.943, BLEU: 0.800, ROUGE-1: 0.850
+2025-09-17 10:28:46,335 - INFO - Evaluating test case 9/10
+2025-09-17 10:28:48,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 10:28:49,441 - INFO - Evaluated interaction - BERT: 0.818, BLEU: 0.800, ROUGE-1: 0.800
+2025-09-17 10:28:49,441 - INFO - Evaluating test case 10/10
+2025-09-17 10:28:52,106 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-17 10:28:52,798 - INFO - BERT score below threshold: 0.570 -> 0.800
+2025-09-17 10:28:52,798 - INFO - Evaluated interaction - BERT: 0.800, BLEU: 0.800, ROUGE-1: 0.800
+2025-09-17 10:28:52,849 - INFO - Results saved to C:\Users\lenov\Documents\Program\BackEnd\ChatbotSystem-Using-BERT\testing\evaluation_results
+2025-09-17 10:28:58,979 - INFO - Visualization charts saved to C:\Users\lenov\Documents\Program\BackEnd\ChatbotSystem-Using-BERT\testing\evaluation_charts
+2025-09-17 10:28:58,979 - INFO - Comprehensive evaluation completed successfully!

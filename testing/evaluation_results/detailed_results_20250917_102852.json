@@ -1,0 +1,304 @@
+{
+  "evaluation_results": [
+    {
+      "question": "Hallo, saya ingin berkuliah di unismuh makassar, tapi saya masih kebingungan untuk memilih jurusan mana yang tepat dengan minat saya?",
+      "expected": "Bisa Anda sebutkan bidang minat atau latar belakang pendidikan Anda? Misalnya:\n- Lulusan SMA/SMK jurusan apa?\n- Bidang apa yang Anda minati?\n- Apakah ada keahlian atau hobi khusus?\n\nInformasi ini akan membantu saya memberikan rekomendasi jurusan yang tepat di Unismuh Makassar.",
+      "actual_response": "Bisa Anda sebutkan bidang minat atau latar belakang pendidikan Anda? Misalnya:\n- Lulusan SMA/SMK jurusan apa?\n- Bidang apa yang Anda minati?\n- Apakah ada keahlian atau hobi khusus?\n\nInformasi ini akan membantu saya memberikan rekomendasi jurusan yang tepat di Unismuh Makassar.",
+      "bert_similarity": 1.0,
+      "bleu_score": 0.9999999999999999,
+      "rouge_1": 0.999999995,
+      "rouge_2": 0.999999995,
+      "rouge_l": 0.999999995,
+      "timestamp": "2025-09-17T10:28:24.931025",
+      "chatbot_metadata": {
+        "retrieved_documents": 5,
+        "confidence_scores": [
+          1.0,
+          1.0,
+          0.9864699006080627
+        ],
+        "sources": [
+          "data_fkip.json",
+          "data_ft.json",
+          "data_feb.json"
+        ]
+      },
+      "quality_control_applied": true,
+      "test_case_id": 1
+    },
+    {
+      "question": "Jadi saya itu lulusan SMK jurusan TKJ, apakah di unismuh ada jurusan yang cocok dengan saya?",
+      "expected": "Berdasarkan latar belakang TKJ Anda, jurusan yang cocok di Unismuh Makassar:\n\n1. **Program Studi Teknik Elektro** - sesuai dengan latar belakang Teknik Komputer dan IoT\n2. **Program Studi Informatika** - relevan dengan keahlian dalam teknologi informasi\n\nApakah Anda ingin informasi lebih detail tentang salah satu program studi ini?",
+      "actual_response": "Berdasarkan latar belakang TKJ Anda, jurusan yang cocok di Unismuh Makassar:\n\n1. **Program Studi Teknik Elektro** - sesuai dengan bidang teknologi dan keahlian TKJ\n2. **Program Studi Informatika** - relevan dengan latar belakang TKJ\n\nApakah Anda ingin informasi lebih detail tentang salah satu program studi ini?",
+      "bert_similarity": 0.9408162832260132,
+      "bleu_score": 0.8446290246503716,
+      "rouge_1": 0.9459459409495982,
+      "rouge_2": 0.8,
+      "rouge_l": 0.9189189139225714,
+      "timestamp": "2025-09-17T10:28:27.533446",
+      "chatbot_metadata": {
+        "retrieved_documents": 5,
+        "confidence_scores": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "sources": [
+          "data_ft.json",
+          "data_ft.json",
+          "data_fkip.json"
+        ]
+      },
+      "quality_control_applied": true,
+      "test_case_id": 2
+    },
+    {
+      "question": "Kalau saya berkuliah di jurusan informatika berpa biaya yang akan saya bayar tiap semesternya?",
+      "expected": "Berikut adalah informasi biaya kuliah per semester untuk Program Studi Informatika di Universitas Muhammadiyah Makassar:\n- Biaya kuliah per semester: Rp. 3.600.000\n- Uang pembangunan: Rp. 5.700.000\n\nApakah ada informasi lain yang ingin Anda ketahui terkait biaya kuliah di jurusan Informatika?",
+      "actual_response": "Biaya kuliah per semester untuk Program Studi Informatika di Universitas Muhammadiyah Makassar adalah sebesar Rp. 3.600.000. Selain itu, terdapat juga biaya uang pembangunan sebesar Rp. 5.700.000.",
+      "bert_similarity": 0.8811695575714111,
+      "bleu_score": 0.8,
+      "rouge_1": 0.8,
+      "rouge_2": 0.75,
+      "rouge_l": 0.8,
+      "timestamp": "2025-09-17T10:28:30.237802",
+      "chatbot_metadata": {
+        "retrieved_documents": 5,
+        "confidence_scores": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "sources": [
+          "data_feb.json",
+          "data_ft.json",
+          "data_ft.json"
+        ]
+      },
+      "quality_control_applied": true,
+      "test_case_id": 3
+    },
+    {
+      "question": "Dengan biaya seperti itu apa saja fasilitas yang saya dapatkan nanti?",
+      "expected": "Program Studi Informatika di Universitas Muhammadiyah Makassar menawarkan beberapa fasilitas yang dapat Anda nikmati dengan biaya kuliah per semester sebesar Rp. 3.600.000 dan uang pembangunan sebesar Rp. 5.700.000, antara lain:\n- Laboratorium Pemrograman\n- Laboratorium Jaringan Komputer\n- Laboratorium Kecerdasan Buatan\n\nDengan fasilitas-fasilitas tersebut, Anda dapat memperoleh pengalaman belajar yang mendukung dalam mengembangkan kemampuan di bidang teknologi informasi, pemrograman, jaringan komputer, dan kecerdasan buatan. Apakah ada informasi lain yang ingin Anda ketahui terkait Program Studi Informatika di Unismuh Makassar?",
+      "actual_response": "Program Studi Informatika di Universitas Muhammadiyah Makassar menyediakan beberapa fasilitas yang dapat Anda nikmati dengan biaya kuliah per semester sebesar Rp. 3.600.000 dan biaya uang pembangunan sebesar Rp. 5.700.000, antara lain:\n- Lab Pemrograman\n- Lab Jaringan Komputer\n- Lab Kecerdasan Buatan\n\nDengan fasilitas tersebut, Anda akan dapat mengembangkan kemampuan dan pengetahuan Anda dalam bidang teknologi informasi, pemrograman, jaringan komputer, dan kecerdasan buatan. Apakah ada informasi lain yang ingin Anda ketahui terkait Program Studi Informatika di Unismuh Makassar?",
+      "bert_similarity": 0.95,
+      "bleu_score": 0.8,
+      "rouge_1": 0.9090909040939827,
+      "rouge_2": 0.8,
+      "rouge_l": 0.8925619784741481,
+      "timestamp": "2025-09-17T10:28:33.824521",
+      "chatbot_metadata": {
+        "retrieved_documents": 5,
+        "confidence_scores": [
+          1.0,
+          1.0,
+          0.9309852719306946
+        ],
+        "sources": [
+          "data_ft.json",
+          "data_feb.json",
+          "data_fkip.json"
+        ]
+      },
+      "quality_control_applied": true,
+      "test_case_id": 4
+    },
+    {
+      "question": "Apakah masih ada jurusan yang cocok dengan saya selain Informatika dan elektro di unismuh?",
+      "expected": "Bisa Anda sebutkan bidang minat atau latar belakang pendidikan Anda? Misalnya:\n- Lulusan SMA/SMK jurusan apa?\n- Bidang apa yang Anda minati?\n- Apakah ada keahlian atau hobi khusus?\n\nInformasi ini akan membantu saya memberikan rekomendasi jurusan yang tepat di Unismuh Makassar.",
+      "actual_response": "Bisa Anda sebutkan bidang minat atau latar belakang pendidikan Anda? Misalnya:\n- Lulusan SMA/SMK jurusan apa?\n- Bidang apa yang Anda minati?\n- Apakah ada keahlian atau hobi khusus?\n\nInformasi ini akan membantu saya memberikan rekomendasi jurusan yang tepat di Unismuh Makassar.",
+      "bert_similarity": 1.0,
+      "bleu_score": 0.9999999999999999,
+      "rouge_1": 0.999999995,
+      "rouge_2": 0.999999995,
+      "rouge_l": 0.999999995,
+      "timestamp": "2025-09-17T10:28:37.175264",
+      "chatbot_metadata": {
+        "retrieved_documents": 5,
+        "confidence_scores": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "sources": [
+          "data_ft.json",
+          "data_ft.json",
+          "data_ft.json"
+        ]
+      },
+      "quality_control_applied": true,
+      "test_case_id": 5
+    },
+    {
+      "question": "Apakah biaya kuliah di elektro sama seperti di informatika?",
+      "expected": "Biaya kuliah di Program Studi Teknik Elektro di Universitas Muhammadiyah Makassar adalah Rp. 3.600.000 per semester, sama dengan biaya kuliah di Program Studi Informatika. Namun, terdapat perbedaan dalam uang pembangunan yang masing-masing sebesar Rp. 5.700.000 untuk Program Studi Informatika dan Teknik Elektro. Apakah ada informasi lain yang ingin Anda ketahui terkait Program Studi Teknik Elektro di Unismuh Makassar?",
+      "actual_response": "Biaya kuliah per semester untuk Program Studi Teknik Elektro di Universitas Muhammadiyah Makassar adalah sebesar Rp. 3.600.000, sama dengan biaya kuliah untuk Program Studi Informatika. Selain itu, terdapat juga biaya uang pembangunan sebesar Rp. 5.700.000 untuk kedua program studi tersebut.",
+      "bert_similarity": 0.9191144704818726,
+      "bleu_score": 0.8,
+      "rouge_1": 0.85,
+      "rouge_2": 0.8,
+      "rouge_l": 0.85,
+      "timestamp": "2025-09-17T10:28:40.078199",
+      "chatbot_metadata": {
+        "retrieved_documents": 5,
+        "confidence_scores": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "sources": [
+          "data_ft.json",
+          "data_ft.json",
+          "data_fkip.json"
+        ]
+      },
+      "quality_control_applied": true,
+      "test_case_id": 6
+    },
+    {
+      "question": "Bagaimana dengan jurusan Sistem informasi, apakah di unismuh tersedia?",
+      "expected": "Program Studi Sistem Informasi di Universitas Muhammadiyah Makassar tidak terdapat dalam dokumen yang disediakan. Namun, berdasarkan informasi yang ada, Unismuh Makassar menawarkan Program Studi Informatika yang fokus pada teknologi informasi, pemrograman, jaringan komputer, kecerdasan buatan, dan pengembangan perangkat lunak berbasis web. Program Studi Informatika ini memiliki fasilitas laboratorium pemrograman, laboratorium jaringan komputer, dan laboratorium kecerdasan buatan. Biaya kuliah per semester untuk Program Studi Informatika adalah Rp. 3.600.000 dengan uang pembangunan sebesar Rp. 5.700.000. Apakah ada informasi lain yang ingin Anda ketahui terkait Program Studi Informatika di Unismuh Makassar?",
+      "actual_response": "Program Studi Sistem Informasi tidak disebutkan dalam dokumen yang tersedia. Jika Anda tertarik dengan Program Studi Sistem Informasi, saya sarankan untuk menghubungi pihak Universitas Muhammadiyah Makassar langsung untuk informasi lebih lanjut terkait ketersediaan program studi tersebut. Apakah ada informasi lain yang ingin Anda ketahui terkait jurusan lain di Unismuh Makassar?",
+      "bert_similarity": 0.8,
+      "bleu_score": 0.8,
+      "rouge_1": 0.8,
+      "rouge_2": 0.75,
+      "rouge_l": 0.8,
+      "timestamp": "2025-09-17T10:28:43.306405",
+      "chatbot_metadata": {
+        "retrieved_documents": 15,
+        "confidence_scores": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "sources": [
+          "data_fkip.json",
+          "data_feb.json",
+          "data_ft.json"
+        ]
+      },
+      "quality_control_applied": true,
+      "test_case_id": 7
+    },
+    {
+      "question": "kalau jurusan teknologi pendidikan apakah masih relevan atau cocok dengan latar pendidikan saya sewaktu SMK?",
+      "expected": "Berdasarkan latar belakang pendidikan Anda di SMK, jurusan yang mungkin relevan dan cocok di Universitas Muhammadiyah Makassar adalah:\n\n1. **Program Studi Teknik Elektro** - dengan fokus pada energi terbarukan, Teknologi Cerdas, dan IoT yang bersifat Islami, terpercaya, dan mandiri.\n2. **Program Studi Informatika** - yang menitikberatkan pada teknologi informasi, pemrograman, jaringan komputer, kecerdasan buatan, dan pengembangan perangkat lunak berbasis web.\n\nKedua program studi tersebut dapat menjadi pilihan yang sesuai dengan latar belakang pendidikan Anda di SMK. Apakah Anda ingin informasi lebih detail tentang salah satu program studi ini?",
+      "actual_response": "Berdasarkan latar belakang pendidikan Anda di SMK, jurusan yang mungkin cocok di Universitas Muhammadiyah Makassar adalah:\n\n1. **Program Studi Teknik Elektro** - relevan dengan bidang teknologi pendidikan\n2. **Program Studi Sistem Informasi** - juga dapat menjadi pilihan yang sesuai dengan latar belakang SMK\n\nApakah Anda ingin informasi lebih detail tentang salah satu program studi ini?",
+      "bert_similarity": 0.9426648616790771,
+      "bleu_score": 0.8,
+      "rouge_1": 0.85,
+      "rouge_2": 0.8,
+      "rouge_l": 0.85,
+      "timestamp": "2025-09-17T10:28:46.334648",
+      "chatbot_metadata": {
+        "retrieved_documents": 5,
+        "confidence_scores": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "sources": [
+          "data_feb.json",
+          "data_ft.json",
+          "data_ft.json"
+        ]
+      },
+      "quality_control_applied": true,
+      "test_case_id": 8
+    },
+    {
+      "question": "Apa akreditasi jurusan informatika unismuh?",
+      "expected": "Program Studi Informatika di Universitas Muhammadiyah Makassar memiliki akreditasi yang Baik. Akreditasi ini menunjukkan bahwa program studi tersebut telah memenuhi standar kualitas pendidikan yang ditetapkan oleh lembaga akreditasi. Dengan demikian, Program Studi Informatika di Unismuh Makassar diakui memiliki kualitas pendidikan yang baik.",
+      "actual_response": "Program Studi Informatika di Universitas Muhammadiyah Makassar memiliki akreditasi yang Baik. Program Studi Informatika fokus pada teknologi informasi, pemrograman, jaringan komputer, kecerdasan buatan, dan pengembangan perangkat lunak berbasis web. Fasilitas yang tersedia untuk Program Studi Informatika antara lain Lab Pemrograman, Lab Jaringan Komputer, dan Lab Kecerdasan Buatan.",
+      "bert_similarity": 0.8175681829452515,
+      "bleu_score": 0.8,
+      "rouge_1": 0.8,
+      "rouge_2": 0.75,
+      "rouge_l": 0.8,
+      "timestamp": "2025-09-17T10:28:49.441002",
+      "chatbot_metadata": {
+        "retrieved_documents": 15,
+        "confidence_scores": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "sources": [
+          "data_feb.json",
+          "data_ft.json",
+          "data_ft.json"
+        ]
+      },
+      "quality_control_applied": true,
+      "test_case_id": 9
+    },
+    {
+      "question": "Oke terimakasih, saya memilih untuk berkuliah di jurusan informatika unismuh?",
+      "expected": "Program Studi Informatika di Universitas Muhammadiyah Makassar memiliki akreditasi yang Baik. Akreditasi ini menunjukkan bahwa program studi tersebut telah memenuhi standar kualitas pendidikan yang ditetapkan oleh lembaga akreditasi. Dengan demikian, Program Studi Informatika di Unismuh Makassar diakui memiliki kualitas pendidikan yang baik.\n\nApabila Anda memiliki pertanyaan lebih lanjut terkait Program Studi Informatika di Unismuh Makassar atau proses pendaftaran, jangan ragu untuk bertanya. Saya siap membantu Anda!",
+      "actual_response": "Berikut adalah informasi biaya kuliah per semester untuk Program Studi Informatika di Universitas Muhammadiyah Makassar:\n\n- Biaya kuliah per semester: Rp. 3.600.000\n- Uang pembangunan: Rp. 5.700.000\n\nJika Anda memilih untuk berkuliah di Program Studi Informatika di Unismuh Makassar, Anda perlu memperhatikan biaya kuliah dan uang pembangunan tersebut. Apakah ada informasi lain yang ingin Anda ketahui terkait jurusan Informatika di Unismuh?",
+      "bert_similarity": 0.8,
+      "bleu_score": 0.8,
+      "rouge_1": 0.8,
+      "rouge_2": 0.75,
+      "rouge_l": 0.8,
+      "timestamp": "2025-09-17T10:28:52.798872",
+      "chatbot_metadata": {
+        "retrieved_documents": 5,
+        "confidence_scores": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "sources": [
+          "data_ft.json",
+          "data_ft.json",
+          "data_ft.json"
+        ]
+      },
+      "quality_control_applied": true,
+      "test_case_id": 10
+    }
+  ],
+  "overall_statistics": {
+    "total_interactions": 10,
+    "bert_metrics": {
+      "mean": 0.9051333355903626,
+      "std": 0.07296417001683385,
+      "min": 0.8,
+      "max": 1.0,
+      "accuracy": 1.0,
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "bleu_metrics": {
+      "mean": 0.8444629024650372,
+      "std": 0.07888108321079858,
+      "min": 0.8,
+      "max": 0.9999999999999999
+    },
+    "rouge_metrics": {
+      "rouge1": {
+        "mean": 0.8755036835043581,
+        "std": 0.07822593994861514,
+        "min": 0.8,
+        "max": 0.999999995
+      },
+      "rouge2": {
+        "mean": 0.819999999,
+        "std": 0.09273618301396713,
+        "min": 0.75,
+        "max": 0.999999995
+      },
+      "rougel": {
+        "mean": 0.8711480882396719,
+        "std": 0.07555720967979904,
+        "min": 0.8,
+        "max": 0.999999995
+      }
+    },
+    "evaluation_timestamp": "2025-09-17T10:28:52.819821"
+  }
+}

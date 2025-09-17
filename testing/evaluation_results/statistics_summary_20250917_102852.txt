@@ -1,0 +1,20 @@
+=== CHATBOT EVALUATION STATISTICS ===
+
+Total Interactions: 10
+
+BERT Model Metrics:
+- Mean Similarity: 0.9051
+- Standard Deviation: 0.0730
+- Accuracy: 1.0000
+- F1 Score: 1.0000
+- Precision: 1.0000
+- Recall: 1.0000
+
+BLEU Score Metrics:
+- Mean Score: 0.8445
+- Standard Deviation: 0.0789
+
+ROUGE Score Metrics:
+- ROUGE-1 Mean: 0.8755
+- ROUGE-2 Mean: 0.8200
+- ROUGE-L Mean: 0.8711
